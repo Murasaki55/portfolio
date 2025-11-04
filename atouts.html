@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-portfolio QD mes Atouts</title>
+    <link rel="stylesheet" href="CSS/dropdown.css"/>
+    <link rel="stylesheet" href="CSS/header.css">
+    <link rel="stylesheet" href="CSS/globalStyle.css">
+    <link rel="stylesheet" href="CSS/atoutStyle.css">
+</head>
+<body>
+    <script src="dropdown.js" defer></script>
+    <script src="atouts.js" defer></script>
+    <header>
+        <div>
+            <h2>E-portfolio Quentin DACQUIN</h2>
+        </div>
+        <div class="row divheader">
+            <button onclick="document.location.replace('./formation.html')" class="buttheader">Ma formation</button>
+            <div class="dropdown">
+                <button class="bloc-top">
+                    <span>Mes actions professionnelles</span>
+                    <img src="image/fleche-vers-le-bas.png  ">
+                </button>
+                <div class="bloc-links">
+                    <ul>
+                        <li>
+                            <p onclick="document.location.replace('./experiencePro.html')">Mes expériences professionnelles</p>
+                        </li>
+                        <li>
+                            <p onclick="document.location.replace('./stagesPro.html')">Mes stages/alternances professionnels</p>
+                        </li>
+                        <li>
+                            <p onclick="document.location.replace('./situationEval.html')">Mes situations d'apprentissage et d'évaluation</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <button class="buttheader" onclick="document.location.replace('./competence.html')">Mes compétences</button>
+            <button class="buttheader" onclick="document.location.replace('./atouts.html')">Mes atouts</button>
+            <button class="buttheader">Mes loisirs</button>
+        </div>
+        <div>
+            <h2><a href="./index.html">Accueil</a> > Mes atouts</h2>
+        </div>
+    </header>
+    <h1> Mes atouts</h1>
+    <div>
+        <div class="row">
+            <button class="buttAtout">Atouts Informatiques</button>
+            <button class="buttAtout">Langues étrangères</button>
+            <button class="buttAtout">Soft skills</button>
+        </div>
+        <div id="atout">
+            <ul>
+                <li>Langage Informatique :</li>
+                <ul class="uldetail">
+                    <li class="lidetail">C# : niveau avancé (POO, création d'API, d'application Console et d'application WPF)</li>
+                    <li class="lidetail">Python : maîtrise pour la création d'alogorithme et d'application console comme avec interface Graphique</li>
+                    <li class="lidetail">WLangage : bases solides (création d'application)</li>
+                    <li class="lidetail">HTML/CSS : niveau avancé (création sites web, application desktop)</li>
+                    <li class="lidetail">Java Script : bases solides (création sites web, application desktop)</li>
+                    <li class="lidetail">PHP : bases solides (création sites web)</li>
+                </ul>
+                <li>Framework : </li>
+                <ul class="uldetail">
+                    <li class="lidetail">.Net : niveau avancé pour toutes application en C# et WPF</li>
+                    <li class="lidetail">Laravel : bonnes connaissances du framework PHP</li>
+                    <li class="lidetail">Électron : bases solides (création d'application desktop)</li>
+                    <li class="lidetail">Windev : bases solides (application desktop)</li>
+                    <li class="lidetail">Phaser : bases solides (création d'un jeu dans un site web)</li>
+                </ul>
+                <li>Base de données</li>
+                <ul class="uldetail">
+                    <li class="lidetail">PostgreSQL : nivceau avancé (création et manipulation base de données, création de requêtes complexe)</li>
+                    <li class="lidetail">HFSQL : bases solides (création et manipulation de données)</li>
+                    <li class="lidetail">SQLite : bases solides (création et manipulation de données)</li>
+                </ul>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

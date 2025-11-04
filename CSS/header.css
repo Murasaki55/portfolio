@@ -1,0 +1,15 @@
+.buttheader{
+  height: 50px;
+  width: 150px;
+  background-color: rgb(103, 75, 224);
+  color: #f1f1f1;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.divheader{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
