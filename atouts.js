@@ -23,16 +23,11 @@ buttons.forEach(button => {
 
         else if(nom == "Soft skills")
         {
-            divText.innerHTML += '<h3>Administrer</h3><h4>Niveau 1 : Installer et configurer un poste de travail</h4>'
-            divText.innerHTML += '<p>AC13.01 | Identifier les différents composants (matériels et logiciels) d’un système numérique</p>'
-            divText.innerHTML += '<p>AC13.02 | Utiliser les fonctionnalités de base d’un système multitâches / multiutilisateurs</p>'
-            divText.innerHTML += '<p>AC13.03 | Installer et configurer un système d’exploitation et des outils de développement</p>'
-            divText.innerHTML += '<p>AC13.04 | Configurer un poste de travail dans un réseau d’entreprise</p>'
-
-            divText.innerHTML += '<h3>Niveau 2 : Déployer des services dans une architecture réseau</h3>'
-            divText.innerHTML += '<p>AC23.01 | Concevoir et développer des applications communicantes</p>'
-            divText.innerHTML += '<p>AC23.02 | Utiliser des serveurs et des services réseaux virtualisés</p>'
-            divText.innerHTML += '<p>AC23.03 | Sécuriser les services et données d’un système</p>'
+            divText.innerHTML +=  '<ul>'
+            divText.innerHTML +=  '    <li>Curiosité : volonté d’apprendre et de comprendre.</li>'
+            divText.innerHTML +=  '    <li>Travail et esprit d'+"'"+'équipe : intéragir et collaoborer au seins d'+"'"+'une équipe.</li>'
+            divText.innerHTML +=  '    <li>Organisation : priorisation et organisation des tâches.</li>'
+            divText.innerHTML +=  '</ul>'
         }
 
     })
