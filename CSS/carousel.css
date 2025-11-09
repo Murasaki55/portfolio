@@ -1,0 +1,22 @@
+.image {
+    filter: blur(1px);
+    width: 100%;
+}
+
+.box{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 95%;
+    background-color: rgba(35, 37, 37, 0.6);
+
+}
+
+.loisir {
+    width: 70%;
+    position: relative;
+}
+
+.textsur{
+    color: aliceblue;
+}

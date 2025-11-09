@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-portfolio QD loisirs</title>
+    <link rel="stylesheet" href="CSS/dropdown.css"/>
+    <link rel="stylesheet" href="CSS/header.css">
+    <link rel="stylesheet" href="CSS/globalStyle.css">
+    <link rel="stylesheet" href="CSS/carousel.css">
+</head>
+<body>
+    <script src="dropdown.js" defer></script>
+    <header>
+        <div>
+            <h2>E-portfolio Quentin DACQUIN</h2>
+        </div>
+        <div class="row divheader">
+            <button onclick="document.location.replace('./formation.html')" class="buttheader">Ma formation</button>
+            <div class="dropdown">
+                <button class="bloc-top">
+                    <span>Mes actions professionnelles</span>
+                    <img src="image/fleche-vers-le-bas.png  ">
+                </button>
+                <div class="bloc-links">
+                    <ul>
+                        <li>
+                            <p onclick="document.location.replace('./experiencePro.html')">Mes expériences professionnelles</p>
+                        </li>
+                        <li>
+                            <p onclick="document.location.replace('./stagesPro.html')">Mes stages/alternances professionnels</p>
+                        </li>
+                        <li>
+                            <p onclick="document.location.replace('./situationEval.html')">Mes situations d'apprentissage et d'évaluation</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <button class="buttheader" onclick="document.location.replace('./competence.html')">Mes compétences</button>
+            <button class="buttheader" onclick="document.location.replace('./atouts.html')">Mes atouts</button>
+            <button class="buttheader" onclick="document.location.replace('./loisirs.html')">Mes loisirs</button>
+        </div>
+        <div>
+            <h2><a href="./index.html">Accueil</a> > Mes loisirs</h2>
+        </div>
+    </header>
+
+    <h1>Mes loisirs</h1>
+    
+    <div>
+        <div class="row">
+            <div class="loisir">
+                <img class="image" src="./image/manga.png">
+                <div class="box">
+                    <h3 class="textsur">Manga:</h3>
+                    <p class="textsur"> Aime les mangas et la culture japonaise, je m'intéresse à différent genre : shonen, seinen, fantasy, isekai, romance, ...</p>
+                </div>
+            </div>
+            <div class="loisir">
+                <img src="./image/jeu.png" class="image">
+                <div class="box">
+                    <h3 class="textsur">Jeux Vidéos:</h3>
+                    <p class="textsur">Joue à des jeux vidéos sur tout type de platforme et de genre : jeux de rôles, monde ouvert, action aventure, simulation, stratégie, réalité virtuelle, gachas, ...</p>
+                </div>
+            </div>
+            <div class="loisir">
+                <img class="image" src="image/coding.jpg">
+                <div class="box">
+                    <h3 class="textsur">Programation:</h3>
+                    <p class="textsur">Développement de projet personnel, des application Desktop/Web ainsi que de jeux vidéos.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+</html>
