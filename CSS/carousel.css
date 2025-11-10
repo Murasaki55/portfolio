@@ -45,3 +45,13 @@
 .next{
     right: 25%;
 }
+
+.anim{
+  animation-name: fade;
+  animation-duration: 1s;
+}
+
+@keyframes fade{
+  from {opacity: .4}
+  to {opacity: 1}
+}
