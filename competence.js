@@ -8,7 +8,7 @@ buttons.forEach(button => {
         divText.innerHTML = ""
         if (nom == "Réaliser")
         {
-            divText.innerHTML += '<h3>Réaliser</h3><h4>Niveau 1 : Développer des applications informatiques simples</h4>'
+            divText.innerHTML += '<h3>Réaliser un développement d’application</h3><h4>Niveau 1 : Développer des applications informatiques simples</h4>'
             divText.innerHTML += '<p>AC11.01 | Implémenter des conceptions simples</p>'
             divText.innerHTML += '<p>AC11.02 | Élaborer des conceptions simples</p>'
             divText.innerHTML += '<p>AC11.03 | Faire des essais et évaluer leurs résultats en regard des spécifications</p>'
@@ -29,7 +29,7 @@ buttons.forEach(button => {
 
         else if(nom == "Optimiser")
         {
-            divText.innerHTML += '<h3>Optimiser</h3><h4>Niveau 1 : Appréhender et construire des algorithmes</h4>'
+            divText.innerHTML += '<h3>Optimiser des applications informatiques</h3><h4>Niveau 1 : Appréhender et construire des algorithmes</h4>'
             divText.innerHTML += '<p>AC12.01 | Analyser un problème avec méthode (découpage en éléments algorithmiques simples, structure de données...)</p>'
             divText.innerHTML += '<p>AC12.02 | Comparer des algorithmes pour des problèmes classiques (tris simples, recherche...)</p>'
             divText.innerHTML += '<p>AC12.03 | Formaliser et mettre en œuvre des outils mathématiques pour l’informatique</p>'
@@ -48,7 +48,7 @@ buttons.forEach(button => {
 
         else if(nom == "Administrer")
         {
-            divText.innerHTML += '<h3>Administrer</h3><h4>Niveau 1 : Installer et configurer un poste de travail</h4>'
+            divText.innerHTML += '<h3>Administrer des systèmes informatiques communicants complexes</h3><h4>Niveau 1 : Installer et configurer un poste de travail</h4>'
             divText.innerHTML += '<p>AC13.01 | Identifier les différents composants (matériels et logiciels) d’un système numérique</p>'
             divText.innerHTML += '<p>AC13.02 | Utiliser les fonctionnalités de base d’un système multitâches / multiutilisateurs</p>'
             divText.innerHTML += '<p>AC13.03 | Installer et configurer un système d’exploitation et des outils de développement</p>'
@@ -62,7 +62,7 @@ buttons.forEach(button => {
 
         else if(nom == "Gérer")
         {
-            divText.innerHTML += "<h3>Gérer</h3><h4>Niveau 1 : concevoir et mettre en place une base de données à partir d'un cahier des charges client</h4>"
+            divText.innerHTML += "<h3>Gérer des données de l’information</h3><h4>Niveau 1 : concevoir et mettre en place une base de données à partir d'un cahier des charges client</h4>"
             divText.innerHTML += '<p>AC14.01 | Mettre à jour et interroger une base de données relationnelle (en requêtes directes ou à travers une application)</p>'
             divText.innerHTML += '<p>AC14.02 | Visualiser des données</p>'
             divText.innerHTML += '<p>AC14.03 | Concevoir une base de données relationnelle à partir d’un cahier des charges</p>'
@@ -76,7 +76,7 @@ buttons.forEach(button => {
 
         else if(nom == "Conduire")
         {
-            divText.innerHTML += '<h3>Conduire</h3><h4>Niveau 1 : Identifier les besoins métiers des clients et des utilisateurs</h4>'
+            divText.innerHTML += '<h3>Conduire un projet informatique</h3><h4>Niveau 1 : Identifier les besoins métiers des clients et des utilisateurs</h4>'
             divText.innerHTML += "<p>AC15.01 | Appréhender les besoins du client et de l'utilisateur</p>"
             divText.innerHTML += '<p>AC15.02 | Mettre en place les outils de gestion de projet</p>'
             divText.innerHTML += '<p>AC15.03 | Identifier les acteurs et les différentes phases d’un cycle de développement</p>'
@@ -90,7 +90,7 @@ buttons.forEach(button => {
 
         else if(nom == "Collaborer")
         {
-            divText.innerHTML += '<h3>Collaborer</h3><h4>Niveau 1 : Identifier ses aptitudes pour travailler dans une équipe</h4>'
+            divText.innerHTML += '<h3>Collaborer / Travailler dans une équipe informatique</h3><h4>Niveau 1 : Identifier ses aptitudes pour travailler dans une équipe</h4>'
             divText.innerHTML += '<p>AC16.01 | Appréhender l’écosystème numérique</p>'
             divText.innerHTML += '<p>AC16.02 | Découvrir les aptitudes requises selon les différents secteurs informatiques</p>'
             divText.innerHTML += '<p>AC16.03 | Identifier les statuts, les fonctions et les rôles de chaque membre d’une équipe pluridisciplinaire</p>'
