@@ -14,7 +14,7 @@
     <script src="dropdown.js" defer></script>
     <script src="loisirs.js" defer></script>
     <header>
-        <div>
+        <div class="body">
             <h2>E-portfolio Quentin DACQUIN</h2>
         </div>
         <div class="row divheader">
@@ -42,39 +42,41 @@
             <button class="buttheader" onclick="document.location.replace('./atouts.html')">Mes atouts</button>
             <button class="buttheader" onclick="document.location.replace('./loisirs.html')">Mes loisirs</button>
         </div>
-        <div>
+        <div class="body">
             <h2><a href="./index.html">Accueil</a> > Mes loisirs</h2>
         </div>
     </header>
-
-    <h1>Mes loisirs</h1>
+    <div class="body">
+        <h1>Mes loisirs</h1>
     
-    <div>
-        <div class="row">
-            <div class="loisir anim">
-                <img class="image" src="./image/manga.png">
-                <div class="box">
-                    <h3 class="textsur">Manga:</h3>
-                    <p class="textsur"> Aime les mangas et la culture japonaise, je m'intéresse à différent genre : shonen, seinen, fantasy, isekai, romance, ...</p>
+        <div>
+            <div class="row">
+                <div class="loisir anim">
+                    <img class="image" src="./image/manga.png">
+                    <div class="box">
+                        <h3 class="textsur">Manga:</h3>
+                        <p class="textsur"> Aime les mangas et la culture japonaise, je m'intéresse à différents genres : shonen, seinen, fantasy, isekai, romance, ...</p>
+                    </div>
                 </div>
-            </div>
-            <div class="loisir anim">
-                <img src="./image/jeu.png" class="image">
-                <div class="box">
-                    <h3 class="textsur">Jeux Vidéos:</h3>
-                    <p class="textsur">Joue à des jeux vidéos sur tout type de platforme et de genre : jeux de rôles, monde ouvert, action aventure, simulation, stratégie, réalité virtuelle, gachas, ...</p>
+                <div class="loisir anim">
+                    <img src="./image/jeu.png" class="image">
+                    <div class="box">
+                        <h3 class="textsur">Jeux Vidéos:</h3>
+                        <p class="textsur">Joue à des jeux vidéo sur tout type de plateforme et de genre : jeux de rôles, monde ouvert, action aventure, simulation, stratégie, réalité virtuelle, gachas, ...</p>
+                    </div>
                 </div>
-            </div>
-            <div class="loisir anim">
-                <img class="image" src="image/coding.jpg">
-                <div class="box">
-                    <h3 class="textsur">Programation:</h3>
-                    <p class="textsur">Développement de projet personnel, des application Desktop/Web ainsi que de jeux vidéos.</p>
+                <div class="loisir anim">
+                    <img class="image" src="image/coding.jpg">
+                    <div class="box">
+                        <h3 class="textsur">Programmation:</h3>
+                        <p class="textsur">Développement de projet personnel, des applications Desktop/Web ainsi que de jeux vidéos.</p>
+                    </div>
                 </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
             </div>
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
         </div>
     </div>
+
 </body>
 </html>

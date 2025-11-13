@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-portfolio QD Situations d'apprentissage</title>
         <link href="https://fonts.googleapis.com/css2?family=Fira+Code&family=IBM+Plex+Mono&family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="CSS/formationstyle.css">
+    <link rel="stylesheet" href="CSS/situationEvalStyle.css">
     <link rel="stylesheet" href="CSS/dropdown.css"/>
     <link rel="stylesheet" href="CSS/header.css">
     <link rel="stylesheet" href="CSS/globalStyle.css">
@@ -13,7 +13,7 @@
 <body>
     <script src="dropdown.js" defer></script>
     <header>
-        <div>
+        <div class="body">
             <h2>E-portfolio Quentin DACQUIN</h2>
         </div>
         <div class="row divheader">
@@ -41,57 +41,59 @@
             <button class="buttheader" onclick="document.location.replace('./atouts.html')">Mes atouts</button>
             <button class="buttheader" onclick="document.location.replace('./loisirs.html')">Mes loisirs</button>
         </div>
-        <div>
+        <div class="body">
             <h2><a href="./index.html">Accueil</a> > Mes situations d'apprentissage et d'évaluation</h2>
         </div>
     </header>
-    
-    <h1>Mes situations d'apprentissage et d'évaluation</h1>
+    <div class="body">
+        <h1>Mes situations d'apprentissage et d'évaluation</h1>
 
-    <div>
-        <div>
-            <div class="row">
-                <img src="./image/upway.webp" class="image">
+            <div>
                 <div>
-                    <h3>Conception et Développement d'apllication(Septembre 2024 à janvier 2025) : développement du site web d'Upway</h3>
+                    <div class="row">
+                        <img src="./image/upway.webp" class="image">
+                        <div>
+                            <h3>Conception et Développement d'application (Septembre 2024 à janvier 2025) : développement du site web d'Upway</h3>
+                            <ul>
+                                <li>
+                                    Contexte académique : situation d'apprentissage et d'évaluation à l'IUT d'Annecy, en groupe de 5 étudiants
+                                </li>
+                                <li>
+                                    Travail réalisé : Conception, création de la base de données, développement de l'application, démonstration au client, document d'installation
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                     <ul>
+                        Apprentissage critique :
                         <li>
-                            Contexte académique : situation f'apprentissage et d'évaluation à l'IUT d'Annecy, en groupe de 5 étudiants
+                           Élaborer et implémenter les spécifications fonctionnelles et non fonctionnelles à partir des exigences
                         </li>
                         <li>
-                            Travail réalisé : Conception, création de la base de données, Développement de l'application, démonstration au client, document d'installation
+                            Appliquer les principes d'accessibilité et d'ergonomie
                         </li>
-                    </ul>
+                        <li>
+                            Vérifier et valider la qualité de l'application par les tests
+                        </li>
+                        <li>
+                            Utiliser des techniques algorithmiques adaptées pour des problèmes complexes
+                        </li>
+                        <li>
+                            Utiliser des serveurs et des services réseaux virtualisés
+                        </li>
+                        <li>
+                            Assurer la sécurité des données (intégrité et confidentialité)
+                        </li>
+                        <li>
+                            Formaliser les besoins du client et de l'utilisateur 
+                        </li>
+                        <li>
+                            Définir et mettre en oeuvre une démarche de suivi de projet
+                        </li>
+                    </ul>    
                 </div>
             </div>
-            <ul>
-                Apprentissage critique :
-                <li>
-                   Élaborer et implémenter les spécifications fonctionnelles et non fonctionnelles à partir des exigences
-                </li>
-                <li>
-                    Appliquer les principes d'accessibilité et d'ergonomie
-                </li>
-                <li>
-                    Vérifier et valider la qualité de l'application par les tests
-                </li>
-                <li>
-                    Utiliser des techniques algorithmiques adaptées pour des problèmes complexes
-                </li>
-                <li>
-                    Utiliser des serveurs et des services réseaux virtualisés
-                </li>
-                <li>
-                    Assurer la sécurité des données (intégrité et confidentialité)
-                </li>
-                <li>
-                    Formaliser les besoins du client et de l'utilisateur 
-                </li>
-                <li>
-                    Définir et mettre en oeuvre une démarche de suivi de projet
-                </li>
-            </ul>    
-        </div>
     </div>
+    
 </body>
 </html>
