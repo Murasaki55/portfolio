@@ -17,3 +17,24 @@
 header {
   border: solid 2px black;
 }
+
+.divlienHead {
+  margin-left: 10%;
+  min-width: none;
+  display: flex;
+  gap:30px;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.lienHead{
+  font-size: 20px;
+  cursor: pointer;
+  padding-top: 2%;
+  text-decoration: none;
+  color: black;  
+}
+
+#title {
+  padding-top: 0.5%;
+}
