@@ -2,7 +2,7 @@
   height: 50px;
   width: 150px;
   background-color: rgb(103, 75, 224);
-  color: #f1f1f1;
+  color: #EFDE56;
   border: none;
   border-radius: 5px;
   font-size: 16px;
@@ -10,12 +10,15 @@
 }
 
 .divheader{
-  margin-top: 20px;
-  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #4B7AE0;
 }
 
 header {
-  border: solid 2px black;
+  border-bottom: solid;
+  border-color: #7398E7;
+  background-color: #7398E7;
 }
 
 .divlienHead {
@@ -32,9 +35,10 @@ header {
   cursor: pointer;
   padding-top: 2%;
   text-decoration: none;
-  color: black;  
+  color: white;  
 }
 
 #title {
   padding-top: 0.5%;
+  color: white;
 }

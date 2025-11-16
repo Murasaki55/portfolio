@@ -21,7 +21,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: #f1f1f1;
+    color: #EFDE56;
     background: rgb(103, 75, 224);
     cursor: pointer;
     border-radius: 5px;
@@ -61,7 +61,7 @@ body {
 
 .bloc-links li p {
     font-size: 18px;
-    color: #f1f1f1;
+    color: #EFDE56;
     margin-left: 5px;
     cursor: pointer;
 }

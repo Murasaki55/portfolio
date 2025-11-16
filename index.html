@@ -15,17 +15,18 @@
 </head>
 <body>
     <script src="dropdown.js" defer></script>
+    <script src="loisirs.js" defer></script>
     <header>
-        <div class="row">
+        <div class="row" >
             <h2 id="title">E-portfolio Quentin DACQUIN</h2>
             <div class="divlienHead">
-                <p class="lienHead" onclick="document.location.replace('./')">Dev.exe</p>
-                <p class="lienHead" onclick="document.location.replace('./contact.html')">Send me a Quest</p>
+                <p class="lienHead" onclick=" window.location.href ='./'">Dev.exe</p>
+                <p class="lienHead" onclick=" window.location.href ='./contact.html'">Me joindre</p>
                 <a class="lienHead" href="Quentin DACQUIN.pdf" target="_blank">Télécharger ma fiche de perso</a>
             </div>
         </div>
         <div class="row divheader">
-            <button onclick="document.location.replace('./formation.html')" class="buttheader">Ma formation</button>
+            <button onclick=" window.location.href ='./formation.html'" class="buttheader">Ma formation</button>
             <div class="dropdown">
                 <button class="bloc-top">
                     <span>Mes actions professionnelles</span>
@@ -34,33 +35,39 @@
                 <div class="bloc-links">
                     <ul>
                         <li>
-                            <p onclick="document.location.replace('./experiencePro.html')">Mes expériences professionnelles</p>
+                            <p onclick=" window.location.href ='./experiencePro.html'">Mes expériences professionnelles</p>
                         </li>
                         <li>
-                            <p onclick="document.location.replace('./stagesPro.html')">Mes stages/alternances professionnels</p>
+                            <p onclick=" window.location.href ='./stagesPro.html'">Mes stages/alternances professionnels</p>
                         </li>
                         <li>
-                            <p onclick="document.location.replace('./situationEval.html')">Mes situations d'apprentissage et d'évaluation</p>
+                            <p onclick=" window.location.href ='./situationEval.html'">Mes situations d'apprentissage et d'évaluation</p>
                         </li>
                     </ul>
                 </div>
             </div>
-            <button class="buttheader" onclick="document.location.replace('./competence.html')">Mes compétences</button>
-            <button class="buttheader" onclick="document.location.replace('./atouts.html')">Mes atouts</button>
-            <button class="buttheader" onclick="document.location.replace('./loisirs.html')">Mes loisirs</button>
+            <button class="buttheader" onclick="window.location.href='./competence.html'">Mes compétences</button>
+            <button class="buttheader" onclick=" window.location.href ='./atouts.html'">Mes atouts</button>
+            <button class="buttheader" onclick=" window.location.href ='./loisirs.html'">Mes loisirs</button>
         </div>
     </header>
     <div class="body">
         <div>
             <h1>Accueil</h1>
         </div>
-        <h1>Bonjour et Bienvenue sur mon E-portfolio</h1>
-        <div style="white-space:pre">
-        Je suis Quentin, étudiant en 3ème de <a class="lien" onclick="document.location.replace('./competence.html')">BUT Informatique</a>
-        J'ai 20 ans j'habite à Annecy, je suis actuellement en alternance chez <a class="lien" onclick="document.location.replace('./stagesPro.html')">Bouygues Energies & Services</a>.
-        J'adore la programmation d'applications et de sites web, je suis fasciné par la réalité virtuelle, les jeux vidéo et les mangas.
-        Vous pouvez découvrir mes compétences professionnelles grâce à ce portfolio, ainsi que mes atouts techniques
+        <div class="row">
+            <div id="pres">
+                <h2 id="titlepage">Bonjour et Bienvenue sur mon E-portfolio</h2>
+                <p class="textpres">Je suis Quentin, passionner par la programmation je me dirige vers un <a class="lien" onclick="window.location.href='./competence.html'">BUT Informatique</a> après mon bac général, je suis actuellement en 3ème année.</p>
+                <p class="textpres">J'ai 20 ans j'habite à Annecy, je suis actuellement en alternance chez <a class="lien" onclick="window.location.href='./stagesPro.html'">Bouygues Energies & Services</a>.</p>
+                <p class="textpres">J'adore la programmation d'applications et de sites web, je suis fasciné par la réalité virtuelle, les jeux vidéo et les mangas.</p>
+                <p class="textpres">Vous pouvez découvrir mes compétences professionnelles avec ce portfolio, ainsi que mes atouts techniques.</p>
+            </div>
+            <img class="loisir portrait" src="./image/quentin.webp">
+            <img class="loisir portrait" src="./image/MuraBoulot.png">
         </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
     </div>
 
 </body>

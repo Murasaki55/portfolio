@@ -3,3 +3,46 @@
     cursor:pointer;
     text-decoration-line: underline ;
 }
+
+.portrait{
+    width: 25%;
+}
+
+#pres{
+    margin-left: 3%;
+    margin-top: 2%;
+}
+
+.textpres{
+    margin-bottom: 2%;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 35%;
+  width: auto;
+  padding: 16px;
+  font-size: 30px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  background-color: rgba(139, 139, 139, 0.534);
+  color: white;
+}
+
+.prev{
+    right: 30.6%;
+}
+
+.next{
+    right: 15%;
+}
+
+img {
+    display: none;
+}
+
+#titlepage{
+    font-size: 30px;
+    margin-bottom: 2%;
+}
