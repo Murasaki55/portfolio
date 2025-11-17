@@ -1,3 +1,22 @@
-.image {
-  width: 400px;
+
+
+@media (min-width: 600px) {
+  .image {
+    width: 400px;
+  }
+
+  .form {
+    margin-top: 2%;
+    display: flex;
+    gap:50px;
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 600px) {
+  .image {
+    width: 350px;
+    margin-top: 6%;
+    margin-bottom: 2%;
+  }
 }

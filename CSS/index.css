@@ -4,23 +4,10 @@
     text-decoration-line: underline ;
 }
 
-.portrait{
-    width: 25%;
-}
 
-#pres{
-    margin-left: 3%;
-    margin-top: 2%;
-}
-
-.textpres{
-    margin-bottom: 2%;
-}
-
-.prev, .next {
+.next {
   cursor: pointer;
   position: absolute;
-  top: 35%;
   width: auto;
   padding: 16px;
   font-size: 30px;
@@ -30,19 +17,60 @@
   color: white;
 }
 
-.prev{
-    right: 30.6%;
+
+@media (min-width: 600px) {
+    .portrait{
+        width: 25%;
+        height: 25%;
+        display: none;
+    }
+
+    #pres{
+        margin-left: 3%;
+        margin-top: 2%;
+    }
+
+    .textpres{
+        margin-bottom: 2%;
+    }
+
+    .next{
+        right: 15%;
+        top: 37%;
+    }
+
+    #titlepage{
+        font-size: 30px;
+        margin-bottom: 2%;
+    }
+
 }
 
-.next{
-    right: 15%;
-}
+@media (max-width: 600px) {
+    .next{
+        right: 15%;
+        top: 80%;
+    }
 
-img {
-    display: none;
-}
+    .portrait{
+        top: 70%;
+    }
 
-#titlepage{
-    font-size: 30px;
-    margin-bottom: 2%;
+    #quentin {
+        width: 200px;
+        height: 250px;
+        display: none;
+        position: absolute;
+    }
+    #mura {
+        width: 200px;
+        height: 300px;
+        display: none;
+        position: absolute;
+    }
+
+    #titlepage{
+        font-size: 20px;
+        margin-bottom: 5%;
+    }
 }
