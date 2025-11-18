@@ -1,10 +1,47 @@
-.uldetail{
-    margin-left: 5%;
-    margin-bottom: 3%;
+#atout {
+    margin-top: 3%;
 }
 
-.lidetail{
-    margin-top: 1%;
-    margin-bottom: 1%;
-    line-height: 1;
+@media (min-width: 600px) {
+    .buttAtout {
+        padding: 10px;
+        background-color: #257D4C;
+        color: #ffffff;
+        border: none;
+        border-radius: 5px;
+        font-size: 20px;
+    }
+
+    .uldetail{
+        margin-left: 5%;
+        margin-bottom: 3%;
+    }
+
+    .lidetail{
+        margin-top: 1%;
+        margin-bottom: 1%;
+        line-height: 1;
+    }
+}
+
+@media (max-width: 600px) {
+    .buttAtout {
+        padding: 5px;
+        background-color: #257D4C;
+        color: #ffffff;
+        border: none;
+        border-radius: 5px;
+        font-size: 12px;
+    }
+
+    .uldetail{
+        margin-left: 10%;
+        margin-bottom: 8%;
+    }
+    
+    .lidetail{
+        margin-top: 2%;
+        margin-bottom: 2%;
+        line-height: 2;
+    }
 }

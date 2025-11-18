@@ -1,3 +1,30 @@
-.image{
-    width: 27%;
+.titleul {
+    font-weight: bold;
+}
+
+@media (min-width: 600px) {
+    .image{
+        width: 27%;
+    }
+
+    .apprentissageli{
+        margin-left:10% ;
+    }
+
+    .apprentissage {
+        margin-top: 3%;
+        margin-bottom: 6%;
+        margin-left: 20%;
+    }
+}
+
+@media (max-width: 600px) {
+    .image{
+        width: 30%;
+        height: 30%;
+    }
+    .apprentissage {
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
 }

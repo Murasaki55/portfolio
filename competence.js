@@ -54,7 +54,7 @@ buttons.forEach(button => {
             divText.innerHTML += '<p>AC13.03 | Installer et configurer un système d’exploitation et des outils de développement</p>'
             divText.innerHTML += '<p>AC13.04 | Configurer un poste de travail dans un réseau d’entreprise</p>'
 
-            divText.innerHTML += '<h3>Niveau 2 : Déployer des services dans une architecture réseau</h3>'
+            divText.innerHTML += '<h4>Niveau 2 : Déployer des services dans une architecture réseau</h4>'
             divText.innerHTML += '<p>AC23.01 | Concevoir et développer des applications communicantes</p>'
             divText.innerHTML += '<p>AC23.02 | Utiliser des serveurs et des services réseaux virtualisés</p>'
             divText.innerHTML += '<p>AC23.03 | Sécuriser les services et données d’un système</p>'
@@ -67,7 +67,7 @@ buttons.forEach(button => {
             divText.innerHTML += '<p>AC14.02 | Visualiser des données</p>'
             divText.innerHTML += '<p>AC14.03 | Concevoir une base de données relationnelle à partir d’un cahier des charges</p>'
 
-            divText.innerHTML += '<h3>Niveau 2 : Optimiser une base de données, interagir avec une application et mettre en oeuvre la sécurité</h3>'
+            divText.innerHTML += '<h4>Niveau 2 : Optimiser une base de données, interagir avec une application et mettre en oeuvre la sécurité</h4>'
             divText.innerHTML += '<p>AC24.01 | Optimiser les modèles de données de l’entreprise</p>'
             divText.innerHTML += '<p>AC24.02 | Assurer la sécurité des données (intégrité et confidentialité)</p>'
             divText.innerHTML += '<p>AC24.03 | Organiser la restitution de données à travers la programmation et la visualisation</p>'
@@ -81,7 +81,7 @@ buttons.forEach(button => {
             divText.innerHTML += '<p>AC15.02 | Mettre en place les outils de gestion de projet</p>'
             divText.innerHTML += '<p>AC15.03 | Identifier les acteurs et les différentes phases d’un cycle de développement</p>'
             
-            divText.innerHTML += '<h3>Niveau 2 : Appliquer une démarche de suivi de projet en fonction des besoins métiers des clients et des utilisateurs</h3>'
+            divText.innerHTML += '<h4>Niveau 2 : Appliquer une démarche de suivi de projet en fonction des besoins métiers des clients et des utilisateurs</h4>'
             divText.innerHTML += '<p>AC25.01 | Identifier les processus présents dans une organisation en vue d’améliorer les systèmes d’information</p>'
             divText.innerHTML += "<p>AC25.02 | Formaliser les besoins du client et de l'utilisateur</p>"
             divText.innerHTML += '<p>AC25.03 | Identifier les critères de faisabilité d’un projet informatique</p>'
@@ -96,13 +96,13 @@ buttons.forEach(button => {
             divText.innerHTML += '<p>AC16.03 | Identifier les statuts, les fonctions et les rôles de chaque membre d’une équipe pluridisciplinaire</p>'
             divText.innerHTML += '<p>AC16.04 | Acquérir les compétences interpersonnelles pour travailler en équipe</p>'
 
-            divText.innerHTML += "<h3>Niveau 2 : Situer son rôle et ses missions au sein d'une équipe informatique</h3>"
+            divText.innerHTML += "<h4>Niveau 2 : Situer son rôle et ses missions au sein d'une équipe informatique</h4>"
             divText.innerHTML += '<p>AC26.01 | Comprendre la diversité, la structure et la dimension de l’informatique dans une organisation (ESN, DSI,...)</p>'
             divText.innerHTML += '<p>AC26.02 | Appliquer une démarche pour intégrer une équipe informatique au sein d’une organisation</p>'
             divText.innerHTML += '<p>AC26.03 | Mobiliser les compétences interpersonnelles pour travailler dans une équipe informatique</p>'
             divText.innerHTML += '<p>AC26.04 | Rendre compte de son activité professionnelle</p>'
 
-            divText.innerHTML += '<h3>Niveau 3 : Manager une équipe informatique</h3>'
+            divText.innerHTML += '<h4>Niveau 3 : Manager une équipe informatique</h4>'
             divText.innerHTML += '<p>AC36.01 | Organiser et partager une veille technologique et informationnelle</p>'
             divText.innerHTML += '<p>AC36.02 | Identifier les enjeux de l’économie de l’innovation numérique</p>'
             divText.innerHTML += '<p>AC36.03 | Guider la conduite du changement informatique au sein d’une organisation</p>'
