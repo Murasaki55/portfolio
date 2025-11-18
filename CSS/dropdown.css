@@ -33,12 +33,6 @@ body {
     
 }
 
-.bloc-top span {
-    font-size: 16px;
-}
-
-
-
 .bloc-links {
     position: absolute;
     top: 100%;
@@ -59,12 +53,6 @@ body {
     margin-bottom: 10px;
 }
 
-.bloc-links li p {
-    font-size: 18px;
-    color: #EFDE56;
-    margin-left: 5px;
-    cursor: pointer;
-}
 .bloc-links li:last-child{
     padding-bottom: 25px;
 }
@@ -78,6 +66,16 @@ body {
         flex-direction: row;
         justify-content: center;
     }
+    .bloc-top span {
+        font-size: 16px;
+    }
+
+    .bloc-links li p {
+        font-size: 18px;
+        color: #EFDE56;
+        margin-left: 5px;
+        cursor: pointer;
+    }
 }
 
 @media (max-width: 600px) {
@@ -87,5 +85,15 @@ body {
         gap:5px;
         flex-direction: row;
         justify-content: center;
+    }
+    .bloc-top span {
+        font-size: 12px;
+    }
+
+    .bloc-links li p {
+        font-size: 12px;
+        color: #EFDE56;
+        margin-left: 5px;
+        cursor: pointer;
     }
 }
