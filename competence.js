@@ -9,10 +9,10 @@ buttons.forEach(button => {
         if (nom == "Réaliser")
         {
             divText.innerHTML += '<h3>Réaliser un développement d’application</h3><h4>Niveau 1 : Développer des applications informatiques simples</h4>'
-            divText.innerHTML += '<p>AC11.01 | Implémenter des conceptions simples</p>'
-            divText.innerHTML += '<p>AC11.02 | Élaborer des conceptions simples</p>'
-            divText.innerHTML += '<p>AC11.03 | Faire des essais et évaluer leurs résultats en regard des spécifications</p>'
-            divText.innerHTML += '<p> AC11.04 | Développer des interfaces utilisateurs</p>'
+            divText.innerHTML += '<p><a href="./Competences/realiser1.html">AC11.01 | Implémenter des conceptions simples</a></p>'
+            divText.innerHTML += '<p><a href="./Competences/realiser1.html">AC11.02 | Élaborer des conceptions simples</a></p>'
+            divText.innerHTML += '<p><a href="./Competences/realiser1.html">AC11.03 | Faire des essais et évaluer leurs résultats en regard des spécifications</a></p>'
+            divText.innerHTML += '<p><a href="./Competences/realiser1.html">AC11.04 | Développer des interfaces utilisateurs</a></p>'
 
             divText.innerHTML += "<h4>Niveau 2 : Partir des exigences et aller jusqu'à une application complète</h4>"
             divText.innerHTML += '<p>AC21.01 | Élaborer et implémenter les spécifications fonctionnelles et non fonctionnelles à partir des exigences</p>'

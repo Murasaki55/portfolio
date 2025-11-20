@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-portfolio QD loisirs</title>
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Code&family=IBM+Plex+Mono&family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/dropdown.css"/>
+    <link rel="stylesheet" href="../CSS/header.css">
+    <link rel="stylesheet" href="../CSS/globalStyle.css">
+</head>
+<body>
+    <script src="dropdown.js" defer></script>
+    <script src="loisirs.js" defer></script>
+    <header>
+        <div class="row">
+            <h2 id="title">E-portfolio Quentin DACQUIN</h2>
+            <div class="divlienHead">
+                <p class="lienHead" onclick=" window.location.href ='../'">Dev.exe</p>
+                <p class="lienHead" onclick=" window.location.href ='../contact.html'">Me joindre</p>
+                <a class="lienHead" href="../Quentin DACQUIN.pdf" target="_blank">Télécharger ma fiche de perso</a>
+            </div>
+        </div>
+        <div class="row divheader">
+            <button onclick=" window.location.href ='../formation.html'" class="buttheader">Ma formation</button>
+            <div class="dropdown">
+                <button class="bloc-top">
+                    <span>Mes actions professionnelles</span>
+                    <img src="../image/fleche-vers-le-bas.png  ">
+                </button>
+                <div class="bloc-links">
+                    <ul>
+                        <li>
+                            <p onclick=" window.location.href ='../experiencePro.html'">Mes expériences professionnelles</p>
+                        </li>
+                        <li>
+                            <p onclick=" window.location.href ='../stagesPro.html'">Mes stages/alternances professionnels</p>
+                        </li>
+                        <li>
+                            <p onclick=" window.location.href ='../situationEval.html'">Mes situations d'apprentissage et d'évaluation</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <button class="buttheader" onclick="window.location.href='../competence.html'">Mes compétences</button>
+            <button class="buttheader" onclick=" window.location.href ='../atouts.html'">Mes atouts</button>
+            <button class="buttheader" onclick=" window.location.href ='../loisirs.html'">Mes loisirs</button>
+        </div>
+        <div class="body">
+            <h2 class="tree"><a href="../">Accueil</a> > Compétence : Réaliser un développement d’application (Niveau 1)</h2>
+        </div>
+    </header>
+    <div class="body">
+        <h1>Compétence : Réaliser un développement d’application (Niveau 1)</h1>
+        <ul>
+            Apprentissages critiques :
+            <li>AC11.01 | Implémenter des conceptions simples</li>
+            <li>AC11.02 | Élaborer des conceptions simples</li>
+            <li>AC11.03 | Faire des essais et évaluer leurs résultats en regard des spécifications</li>
+            <li>AC11.04 | Développer des interfaces utilisateurs</li>
+        </ul>
+        <p> Durant ma 1ère de BUT Informatique, j'ai eu l'opportunité de mettre en place mon apprentissage dans un groupe de 3 étudiant dans la conception et le développement d'une application de réservation de véhicule pour l'enseigne française de grande distribution : « Intermarché »</p>
+        
+        <h2>Partie 1 : Conception</h2>
+        <p>Nous avons commencer se projet par une approche de conception pour orienté notre programmation futur. Nous avons utilisé Visual Paradigme pour la création d'un diagramme de classe pour se représenter les objet qui seront manipuler danns le code, des diagrammes de séquences pour représenter les actions du client et les réponses du système, etc.</p>
+    </div>
+</body>
+</html>
