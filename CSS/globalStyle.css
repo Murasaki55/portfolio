@@ -3,6 +3,7 @@
         font-family: 'Space Grotesk', monospace;
         font-size: 19px;
         background-color: #e7eeff;
+
     }
     .tree{
        color: white;
@@ -16,6 +17,27 @@
     .body{
       width:70%;
       margin-left: 15%;
+    }
+
+    footer{
+        margin-top: 5%;
+        height: 26%;
+        background-color: #734be0;
+        position: absolute;
+        top: 102%;
+        left: 0;
+        bottom: 0;
+        right: 0;
+    }
+    .footimg{
+        margin-top: 30px;
+        width: 40px;
+    }
+
+    .footlien{
+        text-decoration: none;
+        color: white;
+        padding-bottom: 100px ;
     }
 }
 
