@@ -19,7 +19,7 @@
       margin-left: 15%;
     }
 
-    footer{
+    #footerabs{
         margin-top: 5%;
         height: 26%;
         background-color: #734be0;
@@ -29,6 +29,13 @@
         bottom: 0;
         right: 0;
     }
+
+    #footerstat{
+        margin-top: 5%;
+        background-color: #734be0;
+        padding-bottom: 5%;
+        margin-bottom: 0;
+    }
     .footimg{
         margin-top: 30px;
         width: 40px;
@@ -37,7 +44,6 @@
     .footlien{
         text-decoration: none;
         color: white;
-        padding-bottom: 100px ;
     }
 }
 
@@ -60,5 +66,32 @@
     .body{
       width: 80%;
       margin-left: 10%;
+    }
+
+    #footerabs{
+        margin-top: 5%;
+        height: 26%;
+        background-color: #734be0;
+        position: absolute;
+        top: 102%;
+        left: 0;
+        bottom: 0;
+        right: 0;
+    }
+
+    #footerstat{
+        margin-top: 5%;
+        background-color: #734be0;
+        padding-bottom: 5%;
+        margin-bottom: 0;
+    }
+    .footimg{
+        margin-top: 30px;
+        width: 40px;
+    }
+
+    .footlien{
+        text-decoration: none;
+        color: white;
     }
 }

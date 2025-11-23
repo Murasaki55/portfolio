@@ -2,3 +2,18 @@
     width: 25%;
     height: 25%;
 }
+
+.full{
+    display: none;
+}
+
+#divfull{
+    position: fixed;
+    background-color: rgb(77, 77, 77, 0.75);
+    text-align: center;
+    top: 0;
+    width: 100%;
+    padding-top: 3%;
+    padding-bottom: 100%;
+    display: none;
+}

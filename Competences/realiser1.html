@@ -11,8 +11,8 @@
     <link rel="stylesheet" href="../CSS/portfolio.css">
 </head>
 <body>
-    <script src="dropdown.js" defer></script>
-    <script src="loisirs.js" defer></script>
+    <script src="../dropdown.js" defer></script>
+    <script src="globalpotfolio.js" defer></script>
     <header>
         <div class="row">
             <h2 id="title">E-portfolio Quentin DACQUIN</h2>
@@ -65,17 +65,31 @@
         <h2>Partie 1 : Conception</h2>
         <div class="row">
             <img class="image" src="../image/diagramme_classe.png">
-            <p>Nous avons commencé ce projet par une approche de conception pour orienter notre programmation future. Nous avons utilisé Visual Paradigme pour la création d'un diagramme de classe pour se représenter les objets qui seront manipulés dans le code ainsi que des diagrammes de séquences pour représenter les actions du client et les réponses du système.</p>
+            <div>
+                <p>Nous avons commencé ce projet par une approche de conception pour orienter notre programmation future. Nous avons utilisé Visual Paradigme pour la création d'un diagramme de classe pour se représenter les objets qui seront manipulés dans le code ainsi que des diagrammes de séquences pour représenter les actions du client et les réponses du système.</p>
+                <p>Ces diagrammes nous on permis de nous projeter dans la programmation dans laquel nous aurons 10 classe pour manipuler nos objets, mais également mettre en mumière les interfaces utilisateurs avec les réponses du code</p>
+            </div>
             <img class="image" src="../image/diagramme_sequence.jpg">
         </div>
         <h2>Partie 2 : Interface utilisateurs</h2>
-        <div>
-            <p>Avant de passer au développement</p>
+        <div class="row">
+            <img class="image" src="../image/recherche_vehicule.png">
+            <div>
+                <p>Avant de passer au développement, nous avons réaliser des maquettes pour l'iterface et les diiférents fenêtre visible par l'utilisateur. Nous avons mis au point cette maquette en WPF dans Visual Studio.</p>
+                <p>La maquette suis toutes les étapes de la réservation d'un véhicule. L'application sera utilisé par des salarié de l'entreprise donc la réservation passe tout d'abord par une authentification, elle passe par une recherche de véhicule dans les différentes agences, la diponibilité d'un véhicule, ajout des options, et l'affectation à un client en passant par la création du client si il n'existe pas dans la base de données du logiciel.</p>
+            </div>
+            <img class="image" src="../image/create_client.png">
+        </div>
+        <h2>Partie 3 : Développement</h2>
+        <div class="row">
+            <div>
+                <p>A partir de la conception et des maquettes, nous avons commencer le développement. Pour la programmation nous avons utilisé WPF C#. Nous avons créer les classes des objets qui ont été décrit par le diagramme de classe. Nous avons coder les fonctions du code et nous les avons lié avec l'interface de l'application. Pour chaque fonction des tests manuelle on été réalisé afin de validé leur fonctionnement.</p>
+            </div>
         </div>
     </div>
 
-    <footer>
-        <div class="row">
+    <footer id="footerstat">
+        <div class="divlienHead">
             <p class="lienHead" onclick=" window.location.href ='../'">Dev.exe</p>
             <p class="lienHead" onclick=" window.location.href ='../contact.html'">Me joindre</p>
             <a class="lienHead" href="../Quentin DACQUIN.pdf" target="_blank">Télécharger ma fiche de perso</a>
@@ -93,5 +107,11 @@
             </div>
         </div>
     </footer>
+    <div id="divfull">
+        <img class="full" src="../image/diagramme_classe.png">
+        <img class="full" src="../image/diagramme_sequence.jpg">
+        <img class="full" src="../image/recherche_vehicule.png">
+        <img class="full" src="../image/create_client.png">
+    </div>
 </body>
 </html>
