@@ -2,12 +2,14 @@
     body{
         font-family: 'Space Grotesk', monospace;
         font-size: 19px;
-        background-color: #e7eeff;
+        background-color: #24273a;
+        color: #cad3f5;
 
     }
     .tree{
-       color: white;
+       color: #cad3f5;
        font-size: 20px;
+       text-decoration: none;
     }
 
     h1 {
@@ -22,7 +24,7 @@
     #footerabs{
         margin-top: 5%;
         height: 26%;
-        background-color: #734be0;
+        background-color: #181926;
         position: absolute;
         top: 102%;
         left: 0;
@@ -32,7 +34,7 @@
 
     #footerstat{
         margin-top: 5%;
-        background-color: #734be0;
+        background-color: #181926;
         padding-bottom: 5%;
         margin-bottom: 0;
     }
@@ -43,8 +45,16 @@
 
     .footlien{
         text-decoration: none;
-        color: white;
+        color: #cad3f5;
     }
+    
+  .divlienFooter {
+    min-width: none;
+    display: flex;
+    gap:30px;
+    flex-direction: row;
+    justify-content: center;
+  }
 }
 
 
@@ -52,16 +62,18 @@
     body{
         font-family: 'Space Grotesk', monospace;
         font-size: 15px;
-        background-color: #e7eeff;
+        background-color: #24273a;
+        color: #cad3f5;
     }
     .tree{
-       color: white;
+       color: #cad3f5;
        font-size: 19px;
     }
     
     h1 {
         margin-top: 2%;
         margin-bottom: 3%;
+        color: #a5adcb;
     }
     .body{
       width: 80%;
@@ -71,7 +83,7 @@
     #footerabs{
         margin-top: 5%;
         height: 26%;
-        background-color: #734be0;
+        background-color: #181926;
         position: absolute;
         top: 102%;
         left: 0;
@@ -81,7 +93,7 @@
 
     #footerstat{
         margin-top: 5%;
-        background-color: #734be0;
+        background-color: #181926;
         padding-bottom: 5%;
         margin-bottom: 0;
     }
@@ -92,6 +104,14 @@
 
     .footlien{
         text-decoration: none;
-        color: white;
+        color: #cad3f5;
+    }
+
+    .divlienFooter {
+        min-width: none;
+        display: flex;
+        gap:10px;
+        flex-direction: row;
+        justify-content: center;
     }
 }

@@ -2,24 +2,27 @@
   .buttheader{
     height: 50px;
     width: 150px;
-    background-color: rgb(103, 75, 224);
-    color: #EFDE56;
+    background-color: #8aadf4;
+    color: black;
     border: none;
-    border-radius: 5px;
+    border-radius: 15px;
     font-size: 16px;
     cursor: pointer;
+    box-shadow: 0 9px #729aea;
   }
 
   .divheader{
+    margin-top: 1%;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: #4B7AE0;
+    background-color: #494d64;
   }
 
   header {
+    padding-top: 1%;
     border-bottom: solid;
-    border-color: #7398E7;
-    background-color: #7398E7;
+    border-color: #363a4f;
+    background-color: #363a4f;
   }
 
   .divlienHead {
@@ -43,14 +46,19 @@
     padding-top: 0.5%;
     color: white;
   }
+
+  .buttheader:active {
+    box-shadow: 0 5px #6892e7;
+    transform: translateY(4px);
+  }
 }
 
 @media (max-width: 600px) {
   .buttheader{
     height: 50px;
     width: 150px;
-    background-color: rgb(103, 75, 224);
-    color: #EFDE56;
+    background-color : #8aadf4;
+    color: black;
     border: none;
     border-radius: 5px;
     font-size: 12px;
@@ -60,13 +68,13 @@
   .divheader{
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: #4B7AE0;
+    background-color: #494d64;
   }
 
   header {
     border-bottom: solid;
-    border-color: #7398E7;
-    background-color: #7398E7;
+    border-color: #363a4f;
+    background-color: #363a4f;
   }
 
   .divlienHead {

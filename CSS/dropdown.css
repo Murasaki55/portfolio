@@ -13,7 +13,7 @@ body {
     position: relative;
     max-width: 300px;
     border-radius: 5px;
-    background: rgb(103, 75, 224);
+    background: #8aadf4;
 }
 
 .bloc-top {
@@ -21,12 +21,13 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: #EFDE56;
-    background: rgb(103, 75, 224);
+    color: black;
+    background: #8aadf4;
     cursor: pointer;
-    border-radius: 5px;
     height: 50px;
     border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #729aea;
 }
 .bloc-top img {
     width: 20px
@@ -40,11 +41,12 @@ body {
     width: 100%;
     max-height: 0;
     overflow: hidden;
-    background: rgb(103, 75, 224);
+    background: #8aadf4;
     transition: max-height 0.4s ease-in-out;
     padding: 0 22px;
     z-index: 1000;
-    border-radius: 0 0 5px 5px;
+    border-radius: 15px;
+    
 }
 
 .bloc-links li {
@@ -72,7 +74,7 @@ body {
 
     .bloc-links li p {
         font-size: 18px;
-        color: #EFDE56;
+        color: black;
         margin-left: 5px;
         cursor: pointer;
     }
@@ -92,7 +94,7 @@ body {
 
     .bloc-links li p {
         font-size: 12px;
-        color: #EFDE56;
+        color: black;
         margin-left: 5px;
         cursor: pointer;
     }

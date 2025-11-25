@@ -5,12 +5,19 @@
 @media (min-width: 600px) {
     .buttAtout {
         padding: 10px;
-        background-color: #257D4C;
-        color: #ffffff;
+        background-color: #ee99a0;
+        color: black;
         border: none;
         border-radius: 5px;
         font-size: 20px;
         cursor: pointer;
+        border-radius: 15px;
+        box-shadow: 0 9px #e7747d;
+    }
+
+    .buttAtout:active {
+        box-shadow: 0 5px #e76a74;
+        transform: translateY(4px);
     }
 
     .uldetail{
@@ -28,8 +35,8 @@
 @media (max-width: 600px) {
     .buttAtout {
         padding: 5px;
-        background-color: #257D4C;
-        color: #ffffff;
+        background-color: #ee99a0;
+        color: black;
         border: none;
         border-radius: 5px;
         font-size: 12px;

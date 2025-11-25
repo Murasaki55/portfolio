@@ -17,3 +17,21 @@
     padding-bottom: 100%;
     display: none;
 }
+
+h1{
+    font-size: 37px;
+}
+
+.titlePartie {
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+li{
+    margin-left: 5% ;
+}
+
+ul{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}   
