@@ -1,11 +1,14 @@
 buttons = document.querySelectorAll('.buttCompet')
 divText = document.querySelector('#compétences')
+footer = document.querySelector('footer')
 
 buttons.forEach(button => {
 
     button.addEventListener('click',() =>{
         nom = button.innerText
         divText.innerHTML = ""
+        footer.style.position = "static"
+        
         if (nom == "Réaliser")
         {
             divText.innerHTML += '<h3>Réaliser un développement d’application</h3><h4>Niveau 1 : Développer des applications informatiques simples</h4>'
