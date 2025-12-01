@@ -15,10 +15,10 @@ buttons.forEach(button => {
             divText.innerHTML += '<p><a class="lien" href="./Competences/realiser1.html">AC11.04 | Développer des interfaces utilisateurs</a></p>'
 
             divText.innerHTML += "<h4>Niveau 2 : Partir des exigences et aller jusqu'à une application complète</h4>"
-            divText.innerHTML += '<p>AC21.01 | Élaborer et implémenter les spécifications fonctionnelles et non fonctionnelles à partir des exigences</p>'
-            divText.innerHTML += "<p>AC21.02 | Appliquer des principes d'accessibilité et d'ergonomie</p>"
-            divText.innerHTML += '<p>AC21.03 | Adopter de bonnes pratiques de conception et de programmation</p>'
-            divText.innerHTML += '<p>AC21.04 | Vérifier et valider la qualité de l’application par les tests</p>'
+            divText.innerHTML += '<p><a class="lien" href="./Competences/realiser2.html">AC21.01 | Élaborer et implémenter les spécifications fonctionnelles et non fonctionnelles à partir des exigences</a></p>'
+            divText.innerHTML += '<p><a class="lien" href="./Competences/realiser2.html">AC21.02 | Appliquer des principes d'+"'accessibilité et d'"+'ergonomie</a></p>'
+            divText.innerHTML += '<p><a class="lien" href="./Competences/realiser2.html">AC21.03 | Adopter de bonnes pratiques de conception et de programmation</a></p>'
+            divText.innerHTML += '<p><a class="lien" href="./Competences/realiser2.html">AC21.04 | Vérifier et valider la qualité de l’application par les tests</a></p>'
 
             divText.innerHTML += '<h4>Niveau3 : Adapter des applications sur un ensemble de supports (embarqué, web, mobile, IoT ...)</h4>'
             divText.innerHTML += '<p>AC31.01 | Choisir et implémenter les architectures adaptées</p>'
