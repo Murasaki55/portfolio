@@ -61,15 +61,68 @@
             <li>AC21.04 | Vérifier et valider la qualité de l’application par les tests</li>
         </ul>
         <p>Durant ma 2ème année de BUT Informatique, j'ai eu l'opportunité de mettre en place mon apprentissage dans un groupe de 5 étudiants dans la conception et le développement dans un site E-Commerce de vente de vélos électrique d'occasion pour le client fictif Upway</p>
-        
-        <h2 class="titlePartie">Partie 1 : Conception</h2>
-        <div>
+        <h2 class="titlePartie">Partie 1 : Conception</h2>    
+    </div>
+    <div id="portfolio">
+        <div class="row">
+            <img class="grandimage" src="../image/UC_Upway.jpg">
+            <img class="grandimage dessous" src="../image/Diagramme de Classe.jpg">
             <div>
-                <p>Nous avons commencé par étudier le document fournie par le client, le document présentait la société, le besoins et le détails du besoins avec les spécifications fonctionnelles et non fonctionnelles.</p>
-                <p>Après étude de se document nous avons commencé par une étape de conception du projet. Pour cela nous avons réaliser plusieurs diagramme : un diagramme de use case, des diagrames de séquences, un diagramme de classe, des diagrammes d'états, des diagrammes de classes participantes et enfin des collaboration BPMN</p>
+                <p>Nous avons commencé par analyser le document fourni par le client, qui présentait la société, le besoin global, ainsi que les spécifications fonctionnelles et non fonctionnelles du projet. À partir de cette analyse, nous avons réalisé une étape de conception complète reposant sur plusieurs diagrammes UML et BPMN :</p>
+                <ul>
+                    <li>Diagramme de Use Case : permet d’identifier les différentes actions possibles pour les utilisateurs du système.</li>
+                    <li>Diagrammes de séquences : décrivent les interactions entre l’utilisateur et le système en détaillant le déroulement de chaque scénario.</li>
+                    <li>Diagramme de classes : met en évidence les objets manipulés par l’application ainsi que leurs relations.</li>
+                    <li>Diagrammes d’états : expliquent les différentes transitions d’un élément selon les actions réalisées.</li>
+                    <li>Diagrammes de classes participantes : détaillent les classes impliquées dans chaque scénario.</li>
+                    <li>Collaborations BPMN : illustrent les interactions entre les acteurs et les étapes d’un processus métier.</li>
+                </ul>
+                <p>Ces différents modèles nous ont permis de clarifier le fonctionnement de l’application, d’anticiper les contraintes techniques et d’organiser le développement de manière structurée.</p>
+            </div>
+            <img class="sequenceimage" src="../image/SD_UPWAY_COMMANDE.jpg">
+        </div>
+    </div>
+    <div class="body">
+        <h2 class="titlePartie">Partie 2 : Ergonomie</h2>
+        <div  class="row">
+            <img class="image" src="../image/filtre.png">
+            <div>
+                <p>Nous avons conçu l’interface graphique en accord avec les attentes du client, de manière à offrir une navigation intuitive et accessible.</p>
+                <p>L’application comporte un bandeau supérieur regroupant plusieurs menus permettant d’accéder aux différentes sections du site. Certains éléments sont des menus déroulants afin d'organiser les informations de manière claire.</p>
+                <ul>
+                    Par exemple : 
+                    <li>Nos vélos : liste l’ensemble des vélos disponibles à la vente.</li>
+                    <li>Accessoires : présente tous les accessoires proposés.</li>
+                    <li>Vendre mon vélo : permet à l’utilisateur de proposer son propre vélo.</li>
+                    <li>Qui sommes-nous ? : fournit des informations sur l’entreprise.</li>
+                    <li>Aide : offre un espace d’assistance.</li>
+                </ul>
+                <p>Une fonction de recherche avancée est disponible, accompagnée de filtres permettant de trouver rapidement un modèle correspondant aux besoins de l’utilisateur.</p>
+                <p>Les utilisateurs ayant un compte peuvent également accéder à leurs alertes et à leur liste de vélos favoris.</p>
+                <p>L’objectif de cette conception ergonomique est de faciliter l’accès aux informations, de simplifier la navigation, et d’améliorer l’expérience utilisateur dans l’ensemble de l’application.</p>
+                <img class="gimage" id="erg" src="../image/Ergonomie.png" > 
+            </div>
+        </div>
+        
+        <h2 class="titlePartie">Partie 3 : Développement</h2>
+        <div class="row">
+            <img class="image" src="../image/ControllerVelo.png">
+            <div>
+                <p>Nous avons structuré le développement en sprinte hebdomadaires. Les fonctionnalités ont d’abord été triées selon leur complexité, leur priorité et leur valeur ajoutée. Chaque début de semaine, nous sélectionnions un ensemble de tâches réalistes à réaliser. À la fin de chaque sprinte, nous présentions une version fonctionnelle au client afin d’obtenir un retour immédiat et réajuster la planification si nécessaire.  Cette organisation nous a permis d’adapter la charge de travail, de respecter les contraintes du projet et d’assurer une progression régulière.</p>
+                <p>Le développement a été réalisé avec le framework Laravel. À partir des spécifications fonctionnelles et non fonctionnelles, nous avons implémenté progressivement chaque fonctionnalité en veillant à respecter les contraintes définies (règles métier, types de données, navigation, cohérence des interfaces…). Nous avons également réparti le travail au sein de l'équipe afin de maintenir une cohérence dans le code et d'assurer une intégration continue tout au long des sprintes.</p>
+                <p>Pendant les cinq semaines de développement, nous avons pu finaliser plus de 80% des fonctionnalités demandées par le client, tout en garantissant une application stable et utilisable à chaque démonstration.</p>
             </div>
         </div>
 
+        <h2 class="titlePartie">Partie 4 : Tests</h2>
+        <div class="row">
+            <img class="image" src="../image/Tests.png">
+            <div>
+                <p>Au premier semestre, lors du développement initial en Laravel, nous n’avions pas mis en place de tests unitaires pour tester la qualité de l'application.</p>
+                <p>En revanche, au second semestre, nous avons réaliser de nouveaux se projet à l'identique avec une API Rest et VueJS. Nous avons ainsi pu mettre en œuvre des tests pour vérifier la fiabilité des échanges avec l’API et la cohérence des données renvoyées.</p>
+                <p>Ces tests nous ont permis de valider plusieurs scénarios essentiels et de garantir une application plus stable et plus conforme aux attentes du client. Les tests effectués au second semestre complètent donc le travail du premier semestre en assurant une validation plus rigoureuse des fonctionnalités.</p>
+            </div>
+        </div>
     </div>
     <footer id="footerstat">
         <div class="divlienFooter">
@@ -90,5 +143,13 @@
             </div>
         </div>
     </footer>    
+    <div id="divfull">
+        <img class="full gimage" src="../image/UC_Upway.jpg">
+        <img class="full gimage" src="../image/Diagramme de Classe.jpg">
+        <img class="full simage" src="../image/SD_UPWAY_COMMANDE.jpg">
+        <img class="full" src="../image/ControllerVelo.png">
+        <img class="full simage" src="../image/filtre.png">
+        <img class="full" src="../image/Tests.png">
+    </div>
 </body>
 </html>

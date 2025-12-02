@@ -1,6 +1,27 @@
 .image{
     width: 25%;
     height: 25%;
+    cursor: pointer;
+}
+
+.grandimage{
+    width: 20%;
+    height: 20%;
+    cursor: pointer;
+}
+
+.sequenceimage{
+    width: 10%;
+    height: 5%;
+}
+
+.simage{
+    width:20%;
+    height: 20%;
+}
+
+.gimage{
+    width: 80%;
 }
 
 .full{
@@ -35,3 +56,18 @@ ul{
     margin-top: 2%;
     margin-bottom: 2%;
 }   
+
+.dessous {
+    position: absolute;
+    margin-top: 13%;
+    left: 5%;
+}
+
+#portfolio {
+    width: 90%;
+    margin-left: 5%;
+}
+
+#erg{
+    margin-top: 2%;
+}
