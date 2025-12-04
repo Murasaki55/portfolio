@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-portfolio QD loisirs</title>
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Code&family=IBM+Plex+Mono&family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/dropdown.css"/>
+    <link rel="stylesheet" href="../CSS/header.css">
+    <link rel="stylesheet" href="../CSS/globalStyle.css">
+    <link rel="stylesheet" href="../CSS/portfolio.css">
+</head>
+<body>
+    <script src="../dropdown.js" defer></script>
+    <script src="globalpotfolio.js" defer></script>
+    <header>
+        <div class="row">
+            <h2 id="title">E-portfolio Quentin DACQUIN</h2>
+            <div class="divlienHead">
+                <p class="lienHead" onclick=" window.location.href ='../'">Dev.exe</p>
+                <p class="lienHead" onclick=" window.location.href ='../contact.html'">Me joindre</p>
+                <a class="lienHead" href="../Quentin DACQUIN.pdf" target="_blank">Télécharger ma fiche de perso</a>
+            </div>
+        </div>
+        <div class="row divheader">
+            <button onclick=" window.location.href ='../formation.html'" class="buttheader">Ma formation</button>
+            <div class="dropdown">
+                <button class="bloc-top">
+                    <span>Mes actions professionnelles</span>
+                    <img src="../image/fleche-vers-le-bas.png  ">
+                </button>
+                <div class="bloc-links">
+                    <ul>
+                        <li>
+                            <p onclick=" window.location.href ='../experiencePro.html'">Mes expériences professionnelles</p>
+                        </li>
+                        <li>
+                            <p onclick=" window.location.href ='../stagesPro.html'">Mes stages/alternances professionnels</p>
+                        </li>
+                        <li>
+                            <p onclick=" window.location.href ='../situationEval.html'">Mes situations d'apprentissage et d'évaluation</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <button class="buttheader" onclick="window.location.href='../competence.html'">Mes compétences</button>
+            <button class="buttheader" onclick=" window.location.href ='../atouts.html'">Mes atouts</button>
+            <button class="buttheader" onclick=" window.location.href ='../loisirs.html'">Mes loisirs</button>
+        </div>
+        <div class="body">
+            <h2 class="tree"><a href="../" class="tree">Accueil</a> > Compétence : Optimiser des applications informatiques (Niveau 1)</h2>
+        </div>
+    </header>
+    <div class="body">
+        <h1>Compétence : Optimiser des applications informatiques (Niveau 1)</h1>
+        <ul>
+            Apprentissages critiques :
+            <li>AC12.01 | Analyser un problème avec méthode (découpage en éléments algorithmiques simples, structure de données...)</li>
+            <li>AC12.02 | Comparer des algorithmes pour des problèmes classiques (tris simples, recherche...)</li>
+            <li>AC12.03 | Formaliser et mettre en œuvre des outils mathématiques pour l’informatique</li>
+        </ul>
+        <p> Durant ma 1ère année de BUT Informatique, j'ai eu l'opportunité de mettre en place mon apprentissage dans un groupe de 3 étudiants dans la conception et le développement d'une application de réservation de véhicule pour l'enseigne française de grande distribution : « Intermarché »</p>
+        
+        <h2 class="titlePartie">Partie 1 : Analyse du problème</h2>
+        <p>Pour analyser les besoins du client, nous avons découpé chaque fonctionnalité en étapes simples (récupération des données, filtrage, tri, affichage, interactions). Ce découpage nous a permis d’identifier les structures et les traitements nécessaires pour organiser correctement le développement.</p>
+        
+        <h2 class="titlePartie">Partie 2 : Récupération des données</h2>
+        <div class="row">
+          <p>Nous avons eu besoin de récupérer de nombreuse donéne depuis la base de données, mais toutes n'étais pas nécessaires, il nous fallait un moyen de filtrer toutes ses données pour obtenir celle souhaiter. Pour cela nous avons étudiez les meilleurs alghorithme de filtrage, et nous avons choisi foreach pour avoir accès à toutes les donées et les tester une après l'autre efficacement.</p>
+          <img class="image" src="../image/foreach.png">
+        </div>
+
+        <h2 class="titlePartie">Partie 3 : Méthode mathématiques</h2>
+        <div class="row">
+            <p>Nous avons mis en œuvre des outils mathématiques pour calculer automatiquement le montant du véhicule pour une réservation avec le prix de l'assurance (montant du véhiucle, durer, ...) permettant au client d’avoir un aperçu rapide du montant total de la réservation.</p>
+            <img class="image" src="../image/CalculePrix.png">
+        </div>
+    </div>
+    <footer id="footerstat">
+        <div class="divlienFooter">
+            <p class="lienHead" onclick=" window.location.href ='../'">Dev.exe</p>
+            <p class="lienHead" onclick=" window.location.href ='../contact.html'">Me joindre</p>
+            <a class="lienHead" href="../Quentin DACQUIN.pdf" target="_blank">Télécharger ma fiche de perso</a>
+        </div>
+        <div class="row">
+            <div class="row">
+                <div>
+                    <img class="footimg" src="../image/LinkedIn_icon.svg.png" alt="">  
+                    <a class="footlien" href="https://www.linkedin.com/in/quentin-dacquin-94a315305/">Linkedin</a>
+                </div>
+                <div>
+                    <img class="footimg" src="../image/GitHub_Invertocat_Logo.svg.png" alt="">
+                    <a class="footlien" href="https://github.com/Murasaki55">Github</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div id="divfull">
+        <img class="full" src="../image/foreach.png">
+        <img class="full" src="../image/CalculePrix.png">
+    </div>
+</body>
+</html>

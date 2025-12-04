@@ -33,9 +33,9 @@ buttons.forEach(button => {
         else if(nom == "Optimiser")
         {
             divText.innerHTML += '<h3>Optimiser des applications informatiques</h3><h4>Niveau 1 : Appréhender et construire des algorithmes</h4>'
-            divText.innerHTML += '<p>AC12.01 | Analyser un problème avec méthode (découpage en éléments algorithmiques simples, structure de données...)</p>'
-            divText.innerHTML += '<p>AC12.02 | Comparer des algorithmes pour des problèmes classiques (tris simples, recherche...)</p>'
-            divText.innerHTML += '<p>AC12.03 | Formaliser et mettre en œuvre des outils mathématiques pour l’informatique</p>'
+            divText.innerHTML += '<p><a class="lien" href="./Competences/optimiser1.html">AC12.01 | Analyser un problème avec méthode (découpage en éléments algorithmiques simples, structure de données...)</a></p>'
+            divText.innerHTML += '<p><a class="lien" href="./Competences/optimiser1.html">AC12.02 | Comparer des algorithmes pour des problèmes classiques (tris simples, recherche...)</a></p>'
+            divText.innerHTML += '<p><a class="lien" href="./Competences/optimiser1.html">AC12.03 | Formaliser et mettre en œuvre des outils mathématiques pour l’informatique</a></p>'
 
             divText.innerHTML += '<h4>Niveau 2 : Sélectionner les algorithmes adéquats pour répondre à un problème donné</h4>'
             divText.innerHTML += '<p>AC22.01 | Choisir des structures de données complexes adaptées au problème</p>'
