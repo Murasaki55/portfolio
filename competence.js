@@ -66,9 +66,9 @@ buttons.forEach(button => {
         else if(nom == "Gérer")
         {
             divText.innerHTML += "<h3>Gérer des données de l’information</h3><h4>Niveau 1 : concevoir et mettre en place une base de données à partir d'un cahier des charges client</h4>"
-            divText.innerHTML += '<p>AC14.01 | Mettre à jour et interroger une base de données relationnelle (en requêtes directes ou à travers une application)</p>'
-            divText.innerHTML += '<p>AC14.02 | Visualiser des données</p>'
-            divText.innerHTML += '<p>AC14.03 | Concevoir une base de données relationnelle à partir d’un cahier des charges</p>'
+            divText.innerHTML += '<p><a class="lien" href="./Competences/gerer1.html">AC14.01 | Mettre à jour et interroger une base de données relationnelle (en requêtes directes ou à travers une application)</a></p>'
+            divText.innerHTML += '<p><a class="lien" href="./Competences/gerer1.html">AC14.02 | Visualiser des données</a></p>'
+            divText.innerHTML += '<p><a class="lien" href="./Competences/gerer1.html">AC14.03 | Concevoir une base de données relationnelle à partir d’un cahier des charges</a></p>'
 
             divText.innerHTML += '<h4>Niveau 2 : Optimiser une base de données, interagir avec une application et mettre en oeuvre la sécurité</h4>'
             divText.innerHTML += '<p>AC24.01 | Optimiser les modèles de données de l’entreprise</p>'

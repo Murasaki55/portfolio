@@ -4,6 +4,11 @@
     cursor: pointer;
 }
 
+.imageInDiv{
+    width: 70%;
+    cursor: pointer;
+}
+
 .grandimage{
     width: 20%;
     height: 20%;
@@ -21,7 +26,7 @@
 }
 
 .gimage{
-    width: 80%;
+    width: 70%;
 }
 
 .full{
@@ -70,4 +75,15 @@ ul{
 
 #erg{
     margin-top: 2%;
+}
+
+.rowNoGap{
+    min-width: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#req{
+    width: 50%;
 }

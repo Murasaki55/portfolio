@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-portfolio QD loisirs</title>
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Code&family=IBM+Plex+Mono&family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/dropdown.css"/>
+    <link rel="stylesheet" href="../CSS/header.css">
+    <link rel="stylesheet" href="../CSS/globalStyle.css">
+    <link rel="stylesheet" href="../CSS/portfolio.css">
+</head>
+<body>
+    <script src="../dropdown.js" defer></script>
+    <script src="globalpotfolio.js" defer></script>
+    <header>
+        <div class="row">
+            <h2 id="title">E-portfolio Quentin DACQUIN</h2>
+            <div class="divlienHead">
+                <p class="lienHead" onclick=" window.location.href ='../'">Dev.exe</p>
+                <p class="lienHead" onclick=" window.location.href ='../contact.html'">Me joindre</p>
+                <a class="lienHead" href="../Quentin DACQUIN.pdf" target="_blank">Télécharger ma fiche de perso</a>
+            </div>
+        </div>
+        <div class="row divheader">
+            <button onclick=" window.location.href ='../formation.html'" class="buttheader">Ma formation</button>
+            <div class="dropdown">
+                <button class="bloc-top">
+                    <span>Mes actions professionnelles</span>
+                    <img src="../image/fleche-vers-le-bas.png  ">
+                </button>
+                <div class="bloc-links">
+                    <ul>
+                        <li>
+                            <p onclick=" window.location.href ='../experiencePro.html'">Mes expériences professionnelles</p>
+                        </li>
+                        <li>
+                            <p onclick=" window.location.href ='../stagesPro.html'">Mes stages/alternances professionnels</p>
+                        </li>
+                        <li>
+                            <p onclick=" window.location.href ='../situationEval.html'">Mes situations d'apprentissage et d'évaluation</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <button class="buttheader" onclick="window.location.href='../competence.html'">Mes compétences</button>
+            <button class="buttheader" onclick=" window.location.href ='../atouts.html'">Mes atouts</button>
+            <button class="buttheader" onclick=" window.location.href ='../loisirs.html'">Mes loisirs</button>
+        </div>
+        <div class="body">
+            <h2 class="tree"><a href="../" class="tree">Accueil</a> > Compétence : Optimiser des applications informatiques (Niveau 1)</h2>
+        </div>
+    </header>
+    <div class="body">
+        <h1>Compétence : Gérer des données de l’information (Niveau 1)</h1>
+        <ul>
+            Apprentissages critiques :
+            <li>AC14.01 | Mettre à jour et interroger une base de données relationnelle (en requêtes directes ou à travers une application)</li>
+            <li>AC14.02 | Visualiser des données</li>
+            <li>AC14.03 | Concevoir une base de données relationnelle à partir d’un cahier des charges</li>
+        </ul>
+        <p> Durant ma 1ère année de BUT Informatique, j'ai eu l'opportunité de mettre en place mon apprentissage dans la conception d'une base de données de l'entreprise fictive : « Matski »</p>
+
+        <h2 class="titlePartie">Partie 1 : Création de la base de données</h2>
+
+        <div class="rowNoGap">
+            <div>
+                <img class="imageInDiv" src="../image/ancienBase.png">
+                <p>Base de données actuel de Matski</p>
+                <img class="imageInDiv" src="../image/nouvelBase.png">
+                <p>Base de données future</p>
+            </div>
+            <div>
+                <p>Matski m'as fourni leur base de données actuel, une base incomplète avec des erreurs. Après avoir expliqué au client se qu'il n'allait pas dans leur base, j'en ai réaliser une autre en fonction de leur nouveau besoin.</p>
+                <ul> 
+                    Leur base actuel a les erreurs suivante :
+                    <li>La table Client possède des attributs qui ne sont pas utiles</li>
+                    <li>La table Articles possède des attributs "Contact" devrait être dans la table Client.</li>
+                    <li>La table Article possede l'attribut PrixVente également présent dans l'association TarifVente, l'attribut doit donc être supprimé de Article.</li>
+                </ul>
+                <p>La nouvelle base que j'ai réaliser règle les erreurs mais également ajoute une partie achat de l'entreprise. lle ajoute les tables suivantes : Fournisseur, Contact, Approvisionnement et Caractéristique d'un article</p>
+            </div>
+        </div>
+
+        <h2 class="titlePartie">Partie 2 : Requêtage</h2>
+        <div>
+            <img id="req" src="../image/requête.png">
+            <p>Durant notre étude de la table l’entreprise nous as informer qu’il voudrait connaître quelques informations sur la base de données pour faire une analyse des données économique de l’entreprise, ils nous ont donc posée plusieurs questions que nous avons répondue en faisant des requête sur leur base de données actuel.</p>
+            <img src="../image/1.png">
+        </div>
+
+    </div>
+    <footer id="footerstat">
+        <div class="divlienFooter">
+            <p class="lienHead" onclick=" window.location.href ='../'">Dev.exe</p>
+            <p class="lienHead" onclick=" window.location.href ='../contact.html'">Me joindre</p>
+            <a class="lienHead" href="../Quentin DACQUIN.pdf" target="_blank">Télécharger ma fiche de perso</a>
+        </div>
+        <div class="row">
+            <div class="row">
+                <div>
+                    <img class="footimg" src="../image/LinkedIn_icon.svg.png" alt="">  
+                    <a class="footlien" href="https://www.linkedin.com/in/quentin-dacquin-94a315305/">Linkedin</a>
+                </div>
+                <div>
+                    <img class="footimg" src="../image/GitHub_Invertocat_Logo.svg.png" alt="">
+                    <a class="footlien" href="https://github.com/Murasaki55">Github</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div id="divfull">
+        <img class="full gimage" src="../image/ancienBase.png">
+        <img class="full gimage" src="../image/nouvelBase.png">
+    </div>
+</body>
+</html>
