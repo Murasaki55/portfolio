@@ -38,10 +38,10 @@ buttons.forEach(button => {
             divText.innerHTML += '<p><a class="lien" href="./Competences/optimiser1.html">AC12.03 | Formaliser et mettre en œuvre des outils mathématiques pour l’informatique</a></p>'
 
             divText.innerHTML += '<h4>Niveau 2 : Sélectionner les algorithmes adéquats pour répondre à un problème donné</h4>'
-            divText.innerHTML += '<p>AC22.01 | Choisir des structures de données complexes adaptées au problème</p>'
-            divText.innerHTML += '<p>AC22.02 | Utiliser des techniques algorithmiques adaptées pour des problèmes complexes (par ex. recherche opérationnelle, méthodes arborescentes, optimisation globale, intelligence artificielle...)</p>'
-            divText.innerHTML += '<p>AC22.03 | Comprendre les enjeux et moyens de sécurisation des données et du code</p>'
-            divText.innerHTML += '<p>AC22.04 | Évaluer l’impact environnemental et sociétal des solutions proposées</p>'
+            divText.innerHTML += '<p><a class="lien" href="./Competences/optimiser2.html">AC22.01 | Choisir des structures de données complexes adaptées au problème</a></p>'
+            divText.innerHTML += '<p><a class="lien" href="./Competences/optimiser2.html">AC22.02 | Utiliser des techniques algorithmiques adaptées pour des problèmes complexes (par ex. recherche opérationnelle, méthodes arborescentes, optimisation globale, intelligence artificielle...)</a></p>'
+            divText.innerHTML += '<p><a class="lien" href="./Competences/optimiser2.html">AC22.03 | Comprendre les enjeux et moyens de sécurisation des données et du code</a></p>'
+            divText.innerHTML += '<p><a class="lien" href="./Competences/optimiser2.html">AC22.04 | Évaluer l’impact environnemental et sociétal des solutions proposées</a></p>'
 
             divText.innerHTML += '<h4>Niveau 3 : Analyser et optimiser des applications</h4>'
             divText.innerHTML += "<p>AC32.01 | Anticiper les résultats de diverses métriques (temps d'exécution, occupation mémoire, montée en charge...)</p>"

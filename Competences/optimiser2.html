@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>E-portfolio QD loisirs</title>
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Code&family=IBM+Plex+Mono&family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/dropdown.css"/>
+    <link rel="stylesheet" href="../CSS/header.css">
+    <link rel="stylesheet" href="../CSS/globalStyle.css">
+    <link rel="stylesheet" href="../CSS/portfolio.css">
+</head>
+<body>
+    <script src="../dropdown.js" defer></script>
+    <script src="globalpotfolio.js" defer></script>
+    <header>
+        <div class="row">
+            <h2 id="title">E-portfolio Quentin DACQUIN</h2>
+            <div class="divlienHead">
+                <p class="lienHead" onclick=" window.location.href ='../'">Dev.exe</p>
+                <p class="lienHead" onclick=" window.location.href ='../contact.html'">Me joindre</p>
+                <a class="lienHead" href="../Quentin DACQUIN.pdf" target="_blank">Télécharger ma fiche de perso</a>
+            </div>
+        </div>
+        <div class="row divheader">
+            <button onclick=" window.location.href ='../formation.html'" class="buttheader">Ma formation</button>
+            <div class="dropdown">
+                <button class="bloc-top">
+                    <span>Mes actions professionnelles</span>
+                    <img src="../image/fleche-vers-le-bas.png  ">
+                </button>
+                <div class="bloc-links">
+                    <ul>
+                        <li>
+                            <p onclick=" window.location.href ='../experiencePro.html'">Mes expériences professionnelles</p>
+                        </li>
+                        <li>
+                            <p onclick=" window.location.href ='../stagesPro.html'">Mes stages/alternances professionnels</p>
+                        </li>
+                        <li>
+                            <p onclick=" window.location.href ='../situationEval.html'">Mes situations d'apprentissage et d'évaluation</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <button class="buttheader" onclick="window.location.href='../competence.html'">Mes compétences</button>
+            <button class="buttheader" onclick=" window.location.href ='../atouts.html'">Mes atouts</button>
+            <button class="buttheader" onclick=" window.location.href ='../loisirs.html'">Mes loisirs</button>
+        </div>
+        <div class="body">
+            <h2 class="tree"><a href="../" class="tree">Accueil</a> > Compétence : Optimiser des applications informatiques (Niveau 2)</h2>
+        </div>
+    </header>
+    <div class="body">
+        <h1>Compétence : Optimiser des applications informatiques (Niveau 2)</h1>
+        <ul>
+            Apprentissages critiques :
+            <li>AC22.01 | Choisir des structures de données complexes adaptées au problème</li>
+            <li>AC22.02 | Utiliser des techniques algorithmiques adaptées pour des problèmes complexes</li>
+            <li>AC22.03 | Comprendre les enjeux et moyens de sécurisation des données et du code</li>
+            <li>AC22.04 | Évaluer l’impact environnemental et sociétal des solutions proposées</li>
+        </ul>
+        <p>Durant ma 2ème année de BUT Informatique, j'ai eu l'opportunité de mettre en place mon apprentissage dans un groupe de 5 étudiants dans la conception et le développement dans un site E-Commerce de vente de vélos électrique d'occasion pour le client fictif Upway</p>
+        
+        <h2 class="titlePartie">Partie 1 : Structures de données</h2>
+        <div class="row">
+            <div>
+                <p>Pour structurer les données de l'application nous avons utiliser les modèles de Laravel. Chaque tables de la base de données à été représenter par un modèle, permettant de définir clairement les relations entre les données et de garantir une organisation cohérente et adaptée aux besoins fonctionnels. Les modèles regroupent tous les méthodes pour récupérer les donner depuis la base de données, elles peuvent être varié en fonction des besoins de l'application (tous les vélos, juste un, tous ceux quisont des VTT, ...)</p>
+            </div>
+            <img class="image" src="../image/modèleVélo.png">
+        </div>
+
+        <h2 class="titlePartie">Partie 2 : Techniques algorithmiques</h2>
+        <div class="row">
+            <img class="image" src="../image/trie.png">
+            <div>
+                <p>Pour répondre à des besoins plus complexes, nous avons mis en place des traitements algorithmiques combinant filtre et ordres d'affichages. Ces techniques permettent de proposer des résultats pertinents à l’utilisateur tout en limitant le nombre de traitements inutiles et en optimisant les requêtes. L'utilisateur peut filtrer sa recherche et également trier l'afficher de plusieurs manières (Pertinance, Prix Croissant/Décroissant, ...)</p>
+            </div>
+        </div>
+
+        <h2 class="titlePartie">Partie 3 : Enjeux et moyens de sécurisation des données</h2>
+        <div>
+            <p>La sécurité des données a été prise en compte tout au long du développement. L’utilisation du framework Laravel permet de limiter les risques d’injection SQL et de renforcer la gestion des données sensibles grâce à la validation des entrées. L'accès du code et de la base de données à été sécuriser par un mot de passe hasher.</p>
+        </div>
+
+        <h2 class="titlePartie">Partie 4 : Impact environnemental et sociétal</h2>
+        <div>
+            <div>
+                <p>Les choix techniques réalisés prennent également en compte l’impact environnemental et sociétal. L’optimisation des requêtes, l’utilisation de la pagination pour limitation des chargements inutiles permettent de réduire la consommation de ressources serveur. Mais également, une interface claire et accessible améliore l’expérience utilisateur et rend l’application plus inclusive.</p>
+            </div>
+        </div>
+
+    </div>
+    <footer id="footerstat">
+        <div class="divlienFooter">
+            <p class="lienHead" onclick=" window.location.href ='../'">Dev.exe</p>
+            <p class="lienHead" onclick=" window.location.href ='../contact.html'">Me joindre</p>
+            <a class="lienHead" href="../Quentin DACQUIN.pdf" target="_blank">Télécharger ma fiche de perso</a>
+        </div>
+        <div class="row">
+            <div class="row">
+                <div>
+                    <img class="footimg" src="../image/LinkedIn_icon.svg.png" alt="">  
+                    <a class="footlien" href="https://www.linkedin.com/in/quentin-dacquin-94a315305/">Linkedin</a>
+                </div>
+                <div>
+                    <img class="footimg" src="../image/GitHub_Invertocat_Logo.svg.png" alt="">
+                    <a class="footlien" href="https://github.com/Murasaki55">Github</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div id="divfull">
+        <img class="full" src="../image/modèleVélo.png">
+    </div>
+</body>
+</html>
