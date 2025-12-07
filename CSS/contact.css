@@ -1,0 +1,42 @@
+label { 
+    display:block; 
+    margin-bottom:0.25rem; 
+    font-weight:600; 
+}
+
+input, textarea { 
+    width:100%; 
+    padding:0.6rem 0.75rem;
+    border:1px solid #ddd; 
+    border-radius:8px; 
+    font-size:1rem; 
+    box-sizing:border-box; 
+    margin-bottom: 2%;
+}
+
+textarea { 
+    min-height:140px; 
+    resize:vertical; 
+}
+
+button { 
+    padding: 10px;
+    background-color: #a6da95;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: 0 9px #7fb46d;
+    }
+
+button:active {
+    box-shadow: 0 5px #7fb46d;
+    transform: translateY(4px);
+}
+    
+button:disabled {
+    opacity:0.6; 
+    cursor:not-allowed; 
+}
