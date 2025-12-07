@@ -62,12 +62,32 @@
         </ul>
         <p>Durant ma 2ème année de BUT Informatique, j'ai eu l'opportunité de mettre en place mon apprentissage dans un groupe de 5 étudiants dans la conception et le développement d'un site e-commerce de vente de vélos électriques d'occasion pour le client fictif Upway</p>
         <h2 class="titlePartie">Partie 1 : Création de la base de données</h2>
-        <div>
+        <div class="row">
             <div>
                 <p>Durant la conception de l'application, nous avons réalisé la base de données du site à partir des documents fournis par le client. Nous avons structuré la base de données pour éviter  les doublons, faciliter les requêtes et les performances de la base.</p>
+                <p>La base de données a été optimiser au plus possible en fonction des contraintes du client</p>
+                <p>Les données ne sont accessible que par le code, l'accès à la base de données et au code sont restreints par des mots de passe hashé et sécurisé.</p>
             </div>
+            <img class="image" src="../image/MCD.png">
+        </div>
+
+        <h2 class="titlePartie">Partie 2 : Visualisation des données</h2>
+        <div class="row">
+            <div>
+                <p>Les données sont visualisé par l’utilisateur à travers des vues dynamiques, permettant une consultation claire et structurée. Des mécanismes de filtrage (marques, type de vélo, prix, ...) et de tri (pertiance, récent, ...) facilitent la recherche d’informations pertinentes. Une pagination a été mis en place pour ne pas se perdre dans les vélos</p>
+            </div>
+            <img class="image" src="../image/catVelo.png">
+        </div>
+
+        <h2 class="titlePartie">Partie 3 : Manipulation des données</h2>
+        <div class="row">
+            <div>
+                <p>L’application manipule différents types de données provenant de sources variées, telles que les entrées utilisateur et  la base de données. Les données de la base de données bien sur utiliser pour présenter les différents articles mais aussi les commandes client et les clients tout simplement. Les entrées utilisateurs peuvent être variées, la création d'un compte client, la commande d'un client qui seront stocker dans la base de données. Il y a également les ajouts/suppressions de produit par les administrateur du client.</p>
+            </div>
+            <img class="image" src="../image/compte.png">
         </div>
     </div>
+
     <footer id="footerstat">
         <div class="divlienFooter">
             <p class="lienHead" onclick=" window.location.href ='../'">Dev.exe</p>
@@ -88,8 +108,8 @@
         </div>
     </footer>
     <div id="divfull">
-        <img class="full gimage" src="../image/ancienBase.png">
-        <img class="full gimage" src="../image/nouvelBase.png">
+        <img class="full mcdimage" src="../image/MCD.png">
+        <img class="full" src="../image/catVelo.png">
     </div>
 </body>
 </html>

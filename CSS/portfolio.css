@@ -29,6 +29,10 @@
     width: 70%;
 }
 
+.mcdimage{
+    width: 80%;
+}
+
 .full{
     display: none;
 }
@@ -39,7 +43,7 @@
     text-align: center;
     top: 0;
     width: 100%;
-    padding-top: 3%;
+    padding-top: 2%;
     padding-bottom: 100%;
     display: none;
 }
