@@ -71,10 +71,10 @@ buttons.forEach(button => {
             divText.innerHTML += '<p><a class="lien" href="./Competences/gerer1.html">AC14.03 | Concevoir une base de données relationnelle à partir d’un cahier des charges</a></p>'
 
             divText.innerHTML += '<h4>Niveau 2 : Optimiser une base de données, interagir avec une application et mettre en oeuvre la sécurité</h4>'
-            divText.innerHTML += '<p>AC24.01 | Optimiser les modèles de données de l’entreprise</p>'
-            divText.innerHTML += '<p>AC24.02 | Assurer la sécurité des données (intégrité et confidentialité)</p>'
-            divText.innerHTML += '<p>AC24.03 | Organiser la restitution de données à travers la programmation et la visualisation</p>'
-            divText.innerHTML += '<p>AC24.04 | Manipuler des données hétérogènes</p>'        
+            divText.innerHTML += '<p><a class="lien" href="./Competences/gerer2.html">AC24.01 | Optimiser les modèles de données de l’entreprise</a></p>'
+            divText.innerHTML += '<p><a class="lien" href="./Competences/gerer2.html">AC24.02 | Assurer la sécurité des données (intégrité et confidentialité)</a></p>'
+            divText.innerHTML += '<p><a class="lien" href="./Competences/gerer2.html">AC24.03 | Organiser la restitution de données à travers la programmation et la visualisation</a></p>'
+            divText.innerHTML += '<p><a class="lien" href="./Competences/gerer2.html">AC24.04 | Manipuler des données hétérogènes</a></p>'        
         }
 
         else if(nom == "Conduire")
