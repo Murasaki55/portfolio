@@ -84,10 +84,10 @@ buttons.forEach(button => {
             divText.innerHTML += '<p><a class="lien" href="./Competences/conduire1.html">AC15.03 | Identifier les acteurs et les différentes phases d’un cycle de développement</a></p>'
             
             divText.innerHTML += '<h4>Niveau 2 : Appliquer une démarche de suivi de projet en fonction des besoins métiers des clients et des utilisateurs</h4>'
-            divText.innerHTML += '<p>AC25.01 | Identifier les processus présents dans une organisation en vue d’améliorer les systèmes d’information</p>'
-            divText.innerHTML += "<p>AC25.02 | Formaliser les besoins du client et de l'utilisateur</p>"
-            divText.innerHTML += '<p>AC25.03 | Identifier les critères de faisabilité d’un projet informatique</p>'
-            divText.innerHTML += '<p>AC25.04 | Définir et mettre en œuvre une démarche de suivi de projet</p>'
+            divText.innerHTML += '<p><a class="lien" href="./Competences/conduire2.html">AC25.01 | Identifier les processus présents dans une organisation en vue d’améliorer les systèmes d’information</a></p>'
+            divText.innerHTML += '<p><a class="lien" href="./Competences/conduire1.html">AC25.02 | '+"Formaliser les besoins du client et de l'utilisateur"+'</a></p>'
+            divText.innerHTML += '<p><a class="lien" href="./Competences/conduire2.html">AC25.03 | Identifier les critères de faisabilité d’un projet informatique</a></p>'
+            divText.innerHTML += '<p><a class="lien" href="./Competences/conduire2.html">AC25.04 | Définir et mettre en œuvre une démarche de suivi de projet</a></p>'
         }
 
         else if(nom == "Collaborer")
