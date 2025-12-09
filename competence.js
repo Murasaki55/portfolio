@@ -6,8 +6,7 @@ buttons.forEach(button => {
 
     button.addEventListener('click',() =>{
         nom = button.innerText
-        divText.innerHTML = ""
-        footer.style.position = "static"
+        divText.innerHTML = ""  
         
         if (nom == "Réaliser")
         {
@@ -80,9 +79,9 @@ buttons.forEach(button => {
         else if(nom == "Conduire")
         {
             divText.innerHTML += '<h3>Conduire un projet informatique</h3><h4>Niveau 1 : Identifier les besoins métiers des clients et des utilisateurs</h4>'
-            divText.innerHTML += "<p>AC15.01 | Appréhender les besoins du client et de l'utilisateur</p>"
-            divText.innerHTML += '<p>AC15.02 | Mettre en place les outils de gestion de projet</p>'
-            divText.innerHTML += '<p>AC15.03 | Identifier les acteurs et les différentes phases d’un cycle de développement</p>'
+            divText.innerHTML += "<p>"+'<a class="lien" href="./Competences/conduire1.html">'+"AC15.01 | Appréhender les besoins du client et de l'utilisateur</a></p>"
+            divText.innerHTML += '<p><a class="lien" href="./Competences/conduire1.html">AC15.02 | Mettre en place les outils de gestion de projet</a></p>'
+            divText.innerHTML += '<p><a class="lien" href="./Competences/conduire1.html">AC15.03 | Identifier les acteurs et les différentes phases d’un cycle de développement</a></p>'
             
             divText.innerHTML += '<h4>Niveau 2 : Appliquer une démarche de suivi de projet en fonction des besoins métiers des clients et des utilisateurs</h4>'
             divText.innerHTML += '<p>AC25.01 | Identifier les processus présents dans une organisation en vue d’améliorer les systèmes d’information</p>'
