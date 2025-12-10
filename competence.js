@@ -93,10 +93,10 @@ buttons.forEach(button => {
         else if(nom == "Collaborer")
         {
             divText.innerHTML += '<h3>Collaborer / Travailler dans une équipe informatique</h3><h4>Niveau 1 : Identifier ses aptitudes pour travailler dans une équipe</h4>'
-            divText.innerHTML += '<p>AC16.01 | Appréhender l’écosystème numérique</p>'
-            divText.innerHTML += '<p>AC16.02 | Découvrir les aptitudes requises selon les différents secteurs informatiques</p>'
-            divText.innerHTML += '<p>AC16.03 | Identifier les statuts, les fonctions et les rôles de chaque membre d’une équipe pluridisciplinaire</p>'
-            divText.innerHTML += '<p>AC16.04 | Acquérir les compétences interpersonnelles pour travailler en équipe</p>'
+            divText.innerHTML += '<p><a class="lien" href="./Competences/collaborer1.html">AC16.01 | Appréhender l’écosystème numérique</a></p>'
+            divText.innerHTML += '<p><a class="lien" href="./Competences/collaborer1.html">AC16.02 | Découvrir les aptitudes requises selon les différents secteurs informatiques</a></p>'
+            divText.innerHTML += '<p><a class="lien" href="./Competences/collaborer1.html">AC16.03 | Identifier les statuts, les fonctions et les rôles de chaque membre d’une équipe pluridisciplinaire</a></p>'
+            divText.innerHTML += '<p><a class="lien" href="./Competences/collaborer1.html">AC16.04 | Acquérir les compétences interpersonnelles pour travailler en équipe</a></p>'
 
             divText.innerHTML += "<h4>Niveau 2 : Situer son rôle et ses missions au sein d'une équipe informatique</h4>"
             divText.innerHTML += '<p>AC26.01 | Comprendre la diversité, la structure et la dimension de l’informatique dans une organisation (ESN, DSI,...)</p>'
