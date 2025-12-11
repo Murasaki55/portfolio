@@ -48,7 +48,7 @@
   }
 
   .buttheader:active {
-    box-shadow: 0 5px #6892e7;
+    box-shadow: 0 5px #e1ff00;
     transform: translateY(4px);
   }
 }

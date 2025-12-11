@@ -10,6 +10,7 @@ buttons.forEach(button => {
         
         if (nom == "Réaliser")
         {
+            footer.style.position = "static"
             divText.innerHTML += '<h3>Réaliser un développement d’application</h3><h4>Niveau 1 : Développer des applications informatiques simples</h4>'
             divText.innerHTML += '<p><a class="lien" href="./Competences/realiser1.html">AC11.01 | Implémenter des conceptions simples</a></p>'
             divText.innerHTML += '<p><a class="lien" href="./Competences/realiser1.html">AC11.02 | Élaborer des conceptions simples</a></p>'
@@ -31,6 +32,7 @@ buttons.forEach(button => {
 
         else if(nom == "Optimiser")
         {
+            footer.style.position = "static"
             divText.innerHTML += '<h3>Optimiser des applications informatiques</h3><h4>Niveau 1 : Appréhender et construire des algorithmes</h4>'
             divText.innerHTML += '<p><a class="lien" href="./Competences/optimiser1.html">AC12.01 | Analyser un problème avec méthode (découpage en éléments algorithmiques simples, structure de données...)</a></p>'
             divText.innerHTML += '<p><a class="lien" href="./Competences/optimiser1.html">AC12.02 | Comparer des algorithmes pour des problèmes classiques (tris simples, recherche...)</a></p>'
@@ -50,6 +52,7 @@ buttons.forEach(button => {
 
         else if(nom == "Administrer")
         {
+            footer.style.position = "absolute"
             divText.innerHTML += '<h3>Administrer des systèmes informatiques communicants complexes</h3><h4>Niveau 1 : Installer et configurer un poste de travail</h4>'
             divText.innerHTML += '<p>AC13.01 | Identifier les différents composants (matériels et logiciels) d’un système numérique</p>'
             divText.innerHTML += '<p>AC13.02 | Utiliser les fonctionnalités de base d’un système multitâches / multiutilisateurs</p>'
@@ -64,6 +67,7 @@ buttons.forEach(button => {
 
         else if(nom == "Gérer")
         {
+            footer.style.position = "absolute"
             divText.innerHTML += "<h3>Gérer des données de l’information</h3><h4>Niveau 1 : concevoir et mettre en place une base de données à partir d'un cahier des charges client</h4>"
             divText.innerHTML += '<p><a class="lien" href="./Competences/gerer1.html">AC14.01 | Mettre à jour et interroger une base de données relationnelle (en requêtes directes ou à travers une application)</a></p>'
             divText.innerHTML += '<p><a class="lien" href="./Competences/gerer1.html">AC14.02 | Visualiser des données</a></p>'
@@ -78,6 +82,7 @@ buttons.forEach(button => {
 
         else if(nom == "Conduire")
         {
+            footer.style.position = "absolute"
             divText.innerHTML += '<h3>Conduire un projet informatique</h3><h4>Niveau 1 : Identifier les besoins métiers des clients et des utilisateurs</h4>'
             divText.innerHTML += "<p>"+'<a class="lien" href="./Competences/conduire1.html">'+"AC15.01 | Appréhender les besoins du client et de l'utilisateur</a></p>"
             divText.innerHTML += '<p><a class="lien" href="./Competences/conduire1.html">AC15.02 | Mettre en place les outils de gestion de projet</a></p>'
@@ -92,6 +97,7 @@ buttons.forEach(button => {
 
         else if(nom == "Collaborer")
         {
+            footer.style.position = "static"
             divText.innerHTML += '<h3>Collaborer / Travailler dans une équipe informatique</h3><h4>Niveau 1 : Identifier ses aptitudes pour travailler dans une équipe</h4>'
             divText.innerHTML += '<p><a class="lien" href="./Competences/collaborer1.html">AC16.01 | Appréhender l’écosystème numérique</a></p>'
             divText.innerHTML += '<p><a class="lien" href="./Competences/collaborer1.html">AC16.02 | Découvrir les aptitudes requises selon les différents secteurs informatiques</a></p>'

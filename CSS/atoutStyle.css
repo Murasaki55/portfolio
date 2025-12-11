@@ -5,14 +5,14 @@
 @media (min-width: 600px) {
     .buttAtout {
         padding: 10px;
-        background-color: #ee99a0;
+        background-color: #d9b7f8;
         color: black;
         border: none;
         border-radius: 5px;
         font-size: 20px;
         cursor: pointer;
         border-radius: 15px;
-        box-shadow: 0 9px #e7747d;
+        box-shadow: 0 9px #bc82f2;
     }
 
     .buttAtout:active {
