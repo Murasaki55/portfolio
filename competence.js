@@ -105,10 +105,10 @@ buttons.forEach(button => {
             divText.innerHTML += '<p><a class="lien" href="./Competences/collaborer1.html">AC16.04 | Acquérir les compétences interpersonnelles pour travailler en équipe</a></p>'
 
             divText.innerHTML += "<h4>Niveau 2 : Situer son rôle et ses missions au sein d'une équipe informatique</h4>"
-            divText.innerHTML += '<p>AC26.01 | Comprendre la diversité, la structure et la dimension de l’informatique dans une organisation (ESN, DSI,...)</p>'
-            divText.innerHTML += '<p>AC26.02 | Appliquer une démarche pour intégrer une équipe informatique au sein d’une organisation</p>'
-            divText.innerHTML += '<p>AC26.03 | Mobiliser les compétences interpersonnelles pour travailler dans une équipe informatique</p>'
-            divText.innerHTML += '<p>AC26.04 | Rendre compte de son activité professionnelle</p>'
+            divText.innerHTML += '<p><a class="lien" href="./Competences/collaborer2.html">AC26.01 | Comprendre la diversité, la structure et la dimension de l’informatique dans une organisation (ESN, DSI,...)</a></p>'
+            divText.innerHTML += '<p><a class="lien" href="./Competences/collaborer2.html">AC26.02 | Appliquer une démarche pour intégrer une équipe informatique au sein d’une organisation</a></p>'
+            divText.innerHTML += '<p><a class="lien" href="./Competences/collaborer2.html">AC26.03 | Mobiliser les compétences interpersonnelles pour travailler dans une équipe informatique</a></p>'
+            divText.innerHTML += '<p><a class="lien" href="./Competences/collaborer2.html">AC26.04 | Rendre compte de son activité professionnelle</a></p>'
 
             divText.innerHTML += '<h4>Niveau 3 : Manager une équipe informatique</h4>'
             divText.innerHTML += '<p>AC36.01 | Organiser et partager une veille technologique et informationnelle</p>'
