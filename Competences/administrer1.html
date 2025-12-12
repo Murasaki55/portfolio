@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link href="https://fonts.googleapis.com/css2?family=Fira+Code&family=IBM+Plex+Mono&family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/dropdown.css"/>
+    <link rel="stylesheet" href="../CSS/header.css">
+    <link rel="stylesheet" href="../CSS/globalStyle.css">
+    <link rel="stylesheet" href="../CSS/portfolio.css">
+</head>
+<body>
+    <script src="../dropdown.js" defer></script>
+    <script src="globalpotfolio.js" defer></script>
+    <header>
+        <div class="row">
+            <h2 id="title">E-portfolio Quentin DACQUIN</h2>
+            <div class="divlienHead">
+                <p class="lienHead" onclick=" window.location.href ='../'">Dev.exe</p>
+                <p class="lienHead" onclick=" window.location.href ='../contact.html'">Me joindre</p>
+                <a class="lienHead" href="../Quentin DACQUIN.pdf" target="_blank">Télécharger ma fiche de perso</a>
+            </div>
+        </div>
+        <div class="row divheader">
+            <button onclick=" window.location.href ='../formation.html'" class="buttheader">Ma formation</button>
+            <div class="dropdown">
+                <button class="bloc-top">
+                    <span>Mes actions professionnelles</span>
+                    <img src="../image/fleche-vers-le-bas.png  ">
+                </button>
+                <div class="bloc-links">
+                    <ul>
+                        <li>
+                            <p onclick=" window.location.href ='../experiencePro.html'">Mes expériences professionnelles</p>
+                        </li>
+                        <li>
+                            <p onclick=" window.location.href ='../stagesPro.html'">Mes stages/alternances professionnels</p>
+                        </li>
+                        <li>
+                            <p onclick=" window.location.href ='../situationEval.html'">Mes situations d'apprentissage et d'évaluation</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <button class="buttheader" onclick="window.location.href='../competence.html'">Mes compétences</button>
+            <button class="buttheader" onclick=" window.location.href ='../atouts.html'">Mes atouts</button>
+            <button class="buttheader" onclick=" window.location.href ='../loisirs.html'">Mes loisirs</button>
+        </div>
+        <div class="body">
+            <h2 class="tree"><a href="../" class="tree">Accueil</a> > Compétence : Conduire un projet informatique (Niveau 1)</h2>
+        </div>
+    </header>
+    <div class="body">
+        <h1>Compétence : Conduire un projet informatique (Niveau 1)</h1>
+        <ul>
+            Apprentissages critiques :
+            <li>AC13.01 | Identifier les différents composants (matériels et logiciels) d’un système numérique</li>
+            <li>AC13.02 | Utiliser les fonctionnalités de base d’un système multitâches / multiutilisateurs</li>
+            <li>AC13.03 | Installer et configurer un système d’exploitation et des outils de développement</li>
+            <li>AC13.04 | Configurer un poste de travail dans un réseau d’entreprise</li>
+        </ul>
+        <p>Durant ma 1ère année de BUT Informatique, j'ai eu l'opportunité de mettre en place mon apprentissage dans un groupe de 3 étudiants dans le mise en place et la configuration d'un raspberry Pi en poste de travail pour y installer un site WordPress</p>
+        <h2 class="titlePartie">Partie 1 : Système numérique</h2>
+        <div>
+            <div>
+                <p>Ce projet m’a permis d’identifier clairement les composants nécessaires au fonctionnement d’un service web : la machine physique ou virtuelle (processeur, RAM, stockage), le système d’exploitation Linux, ainsi que les services logiciels indispensables comme Apache2, PHP, MariaDB ou encore OpenSSH.</p>
+            </div>
+        </div>
+
+        <h2 class="titlePartie">Partie 2 : Système multitâches</h2>
+        <div>
+            <div>
+                <p>J’ai utilisé les commandes essentielles d’un système Linux : mise à jour du système, manipulation de fichiers, gestion des permissions, installation de paquets et utilisation du terminal. Le guide détaille notamment l’usage d’apt, la création d’utilisateurs MariaDB, l’activation de modules Apache et la gestion parallèle de plusieurs services. Cette pratique m’a permis d’être autonome sur un système multitâches et multiutilisateurs.</p>
+            </div>
+        </div>
+
+        <h2 class="titlePartie">Partie 3 : Configuration d'un système d'exploitation</h2>
+        <div>
+            <div>
+                <p>Le projet consistait à installer et configurer entièrement un environnement serveur : installation d’Apache2, de PHP ainsi que de ses librairies, installation et sécurisation de MariaDB, mise en place du CMS WordPress et configuration SSH.</p>
+            </div>
+        </div>
+
+        <h2 class="titlePartie">Partie 4 : Configurer un poste de travail</h2>
+        <div>
+            <div>
+                <p>Durant le projet, j’ai configuré la machine pour qu’elle soit accessible via le réseau, notamment en activant SSH, en configurant Apache et en permettant l’accès externe au service web. Le guide explique également comment activer SSL ou mod_evasive pour améliorer la sécurité et l’intégration du service dans un réseau.</p>
+            </div>
+        </div>
+    </div>
+    <footer id="footerstat">
+        <div class="divlienFooter">
+            <p class="lienHead" onclick=" window.location.href ='../'">Dev.exe</p>
+            <p class="lienHead" onclick=" window.location.href ='../contact.html'">Me joindre</p>
+            <a class="lienHead" href="../Quentin DACQUIN.pdf" target="_blank">Télécharger ma fiche de perso</a>
+        </div>
+        <div class="row">
+            <div class="row">
+                <div>
+                    <img class="footimg" src="../image/LinkedIn_icon.svg.png" alt="">  
+                    <a class="footlien" href="https://www.linkedin.com/in/quentin-dacquin-94a315305/">Linkedin</a>
+                </div>
+                <div>
+                    <img class="footimg" src="../image/GitHub_Invertocat_Logo.svg.png" alt="">
+                    <a class="footlien" href="https://github.com/Murasaki55">Github</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>

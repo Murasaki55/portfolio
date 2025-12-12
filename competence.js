@@ -54,10 +54,10 @@ buttons.forEach(button => {
         {
             footer.style.position = "absolute"
             divText.innerHTML += '<h3>Administrer des systèmes informatiques communicants complexes</h3><h4>Niveau 1 : Installer et configurer un poste de travail</h4>'
-            divText.innerHTML += '<p>AC13.01 | Identifier les différents composants (matériels et logiciels) d’un système numérique</p>'
-            divText.innerHTML += '<p>AC13.02 | Utiliser les fonctionnalités de base d’un système multitâches / multiutilisateurs</p>'
-            divText.innerHTML += '<p>AC13.03 | Installer et configurer un système d’exploitation et des outils de développement</p>'
-            divText.innerHTML += '<p>AC13.04 | Configurer un poste de travail dans un réseau d’entreprise</p>'
+            divText.innerHTML += '<p><a class="lien" href="./Competences/administrer1.html">AC13.01 | Identifier les différents composants (matériels et logiciels) d’un système numérique</a></p>'
+            divText.innerHTML += '<p><a class="lien" href="./Competences/administrer1.html">AC13.02 | Utiliser les fonctionnalités de base d’un système multitâches / multiutilisateurs</a></p>'
+            divText.innerHTML += '<p><a class="lien" href="./Competences/administrer1.html">AC13.03 | Installer et configurer un système d’exploitation et des outils de développement</a></p>'
+            divText.innerHTML += '<p><a class="lien" href="./Competences/administrer1.html">AC13.04 | Configurer un poste de travail dans un réseau d’entreprise</a></p>'
 
             divText.innerHTML += '<h4>Niveau 2 : Déployer des services dans une architecture réseau</h4>'
             divText.innerHTML += '<p>AC23.01 | Concevoir et développer des applications communicantes</p>'
