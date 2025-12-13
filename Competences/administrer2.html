@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link href="https://fonts.googleapis.com/css2?family=Fira+Code&family=IBM+Plex+Mono&family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/dropdown.css"/>
+    <link rel="stylesheet" href="../CSS/header.css">
+    <link rel="stylesheet" href="../CSS/globalStyle.css">
+    <link rel="stylesheet" href="../CSS/portfolio.css">
+</head>
+<body>
+    <script src="../dropdown.js" defer></script>
+    <script src="globalpotfolio.js" defer></script>
+    <header>
+        <div class="row">
+            <h2 id="title">E-portfolio Quentin DACQUIN</h2>
+            <div class="divlienHead">
+                <p class="lienHead" onclick=" window.location.href ='../'">Dev.exe</p>
+                <p class="lienHead" onclick=" window.location.href ='../contact.html'">Me joindre</p>
+                <a class="lienHead" href="../Quentin DACQUIN.pdf" target="_blank">Télécharger ma fiche de perso</a>
+            </div>
+        </div>
+        <div class="row divheader">
+            <button onclick=" window.location.href ='../formation.html'" class="buttheader">Ma formation</button>
+            <div class="dropdown">
+                <button class="bloc-top">
+                    <span>Mes actions professionnelles</span>
+                    <img src="../image/fleche-vers-le-bas.png  ">
+                </button>
+                <div class="bloc-links">
+                    <ul>
+                        <li>
+                            <p onclick=" window.location.href ='../experiencePro.html'">Mes expériences professionnelles</p>
+                        </li>
+                        <li>
+                            <p onclick=" window.location.href ='../stagesPro.html'">Mes stages/alternances professionnels</p>
+                        </li>
+                        <li>
+                            <p onclick=" window.location.href ='../situationEval.html'">Mes situations d'apprentissage et d'évaluation</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <button class="buttheader" onclick="window.location.href='../competence.html'">Mes compétences</button>
+            <button class="buttheader" onclick=" window.location.href ='../atouts.html'">Mes atouts</button>
+            <button class="buttheader" onclick=" window.location.href ='../loisirs.html'">Mes loisirs</button>
+        </div>
+        <div class="body">
+            <h2 class="tree"><a href="../" class="tree">Accueil</a> > Compétence : Conduire un projet informatique (Niveau 1)</h2>
+        </div>
+    </header>
+    <div class="body">
+        <h1>Compétence : Conduire un projet informatique (Niveau 1)</h1>
+        <ul>
+            Apprentissages critiques :
+            <li>AC23.01 | Concevoir et développer des applications communicantes</li>
+            <li>AC23.02 | Utiliser des serveurs et des services réseaux virtualisés</li>
+            <li>AC23.03 | Sécuriser les services et données d’un système</li>
+        </ul>
+    </div> 
+    <footer id="footerstat">
+        <div class="divlienFooter">
+            <p class="lienHead" onclick=" window.location.href ='../'">Dev.exe</p>
+            <p class="lienHead" onclick=" window.location.href ='../contact.html'">Me joindre</p>
+            <a class="lienHead" href="../Quentin DACQUIN.pdf" target="_blank">Télécharger ma fiche de perso</a>
+        </div>
+        <div class="row">
+            <div class="row">
+                <div>
+                    <img class="footimg" src="../image/LinkedIn_icon.svg.png" alt="">  
+                    <a class="footlien" href="https://www.linkedin.com/in/quentin-dacquin-94a315305/">Linkedin</a>
+                </div>
+                <div>
+                    <img class="footimg" src="../image/GitHub_Invertocat_Logo.svg.png" alt="">
+                    <a class="footlien" href="https://github.com/Murasaki55">Github</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>

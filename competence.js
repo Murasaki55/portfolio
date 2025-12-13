@@ -60,9 +60,9 @@ buttons.forEach(button => {
             divText.innerHTML += '<p><a class="lien" href="./Competences/administrer1.html">AC13.04 | Configurer un poste de travail dans un réseau d’entreprise</a></p>'
 
             divText.innerHTML += '<h4>Niveau 2 : Déployer des services dans une architecture réseau</h4>'
-            divText.innerHTML += '<p>AC23.01 | Concevoir et développer des applications communicantes</p>'
-            divText.innerHTML += '<p>AC23.02 | Utiliser des serveurs et des services réseaux virtualisés</p>'
-            divText.innerHTML += '<p>AC23.03 | Sécuriser les services et données d’un système</p>'
+            divText.innerHTML += '<p><a class="lien" href="./Competences/administrer2.html">AC23.01 | Concevoir et développer des applications communicantes</a></p>'
+            divText.innerHTML += '<p><a class="lien" href="./Competences/administrer2.html">AC23.02 | Utiliser des serveurs et des services réseaux virtualisés</a></p>'
+            divText.innerHTML += '<p><a class="lien" href="./Competences/administrer2.html">AC23.03 | Sécuriser les services et données d’un système</a></p>'
         }
 
         else if(nom == "Gérer")
