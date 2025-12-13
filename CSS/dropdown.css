@@ -43,7 +43,6 @@ body {
     overflow: hidden;
     background: #8aadf4;
     transition: max-height 0.4s ease-in-out;
-    padding: 0 22px;
     z-index: 1000;
     border-radius: 15px;
     
@@ -51,14 +50,18 @@ body {
 
 .bloc-links li {
     list-style-type: none;
-    padding: 5px 0;
     margin-bottom: 10px;
+    box-shadow: 4px 4px 6px rgba(0,0,0,0.5);
+    text-align: center;
 }
 
 .bloc-links li:last-child{
     padding-bottom: 25px;
 }
 
+.bloc-links li:hover {
+    box-shadow: 1px 1px 6px rgba(0,0,0,0.5);
+}
 
 @media (min-width: 600px) {
     .row {

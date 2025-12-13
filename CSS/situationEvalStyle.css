@@ -2,6 +2,10 @@
     font-weight: bold;
 }
 
+li{
+    margin-bottom: 2%; 
+}
+
 @media (min-width: 600px) {
     .image{
         width: 27%;
