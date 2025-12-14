@@ -1,0 +1,63 @@
+#détails{
+    margin-left: 5%;
+}
+
+.text{
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+.image-wrapper.portrait{
+    max-width: 10%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  cursor: pointer;
+}
+
+.image-wrapper {
+  width: 100%;
+  margin: 1rem auto;
+}
+
+.image-wrapper.small {
+  max-width: 25%;
+}
+
+.image-wrapper.medium {
+  max-width: 10%;
+}
+
+.image-wrapper.large {
+  max-width: 40%;
+}
+
+.image-wrapper.extra{
+    max-width: 70%;
+}
+
+video {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  display: block;
+  margin: 1rem 0;
+}
+
+.full{
+    display: none;
+}
+
+#divfull{
+    position: fixed;
+    background-color: rgb(77, 77, 77, 0.75);
+    text-align: center;
+    top: 0;
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 100%;
+    display: none;
+}

@@ -65,8 +65,14 @@
     </div>
     <div id="portfolio">
         <div class="row">
-            <img class="grandimage" src="../image/UC_Upway.jpg">
-            <img class="grandimage dessous" src="../image/Diagramme de Classe.jpg">
+            <div class="images-stack">
+                <div class="image-wrapper large">
+                    <img class="grandimage" src="../image/UC_Upway.jpg">
+                </div>
+                <div class="image-wrapper large">
+                    <img class="grandimage dessous" src="../image/Diagramme de Classe.jpg">
+                </div>
+            </div>
             <div>
                 <p>Nous avons commencé par analyser le document fourni par le client, qui présentait la société, le besoin global, ainsi que les spécifications fonctionnelles et non fonctionnelles du projet. À partir de cette analyse, nous avons réalisé une étape de conception complète reposant sur plusieurs diagrammes UML et BPMN :</p>
                 <ul>
@@ -79,13 +85,17 @@
                 </ul>
                 <p>Ces différents modèles nous ont permis de clarifier le fonctionnement de l’application, d’anticiper les contraintes techniques et d’organiser le développement de manière structurée.</p>
             </div>
-            <img class="sequenceimage" src="../image/SD_UPWAY_COMMANDE.jpg">
+            <div class="image-wrapper medium">
+                <img class="sequenceimage" src="../image/SD_UPWAY_COMMANDE.jpg">
+            </div>
         </div>
     </div>
     <div class="body">
         <h2 class="titlePartie">Partie 2 : Ergonomie</h2>
         <div  class="row">
-            <img class="image" src="../image/filtre.png">
+            <div class="image-wrapper small">
+                <img class="image" src="../image/filtre.png">
+            </div>
             <div>
                 <p>Nous avons conçu l’interface graphique en accord avec les attentes du client, de manière à offrir une navigation intuitive et accessible.</p>
                 <p>L’application comporte un bandeau supérieur regroupant plusieurs menus permettant d’accéder aux différentes sections du site. Certains éléments sont des menus déroulants afin d'organiser les informations de manière claire.</p>
@@ -106,7 +116,9 @@
         
         <h2 class="titlePartie">Partie 3 : Développement</h2>
         <div class="row">
-            <img class="image" src="../image/ControllerVelo.png">
+            <div class="image-wrapper small">
+                <img class="image" src="../image/ControllerVelo.png">
+            </div>
             <div>
                 <p>Nous avons structuré le développement en sprints hebdomadaires. Les fonctionnalités ont d’abord été triées selon leur complexité, leur priorité et leur valeur ajoutée. Chaque début de semaine, nous sélectionnions un ensemble de tâches réalistes à réaliser. À la fin de chaque sprint, nous présentions une version fonctionnelle au client afin d’obtenir un retour immédiat et réajuster la planification si nécessaire.  Cette organisation nous a permis d’adapter la charge de travail, de respecter les contraintes du projet et d’assurer une progression régulière.</p>
                 <p>Le développement a été réalisé avec le framework Laravel. À partir des spécifications fonctionnelles et non fonctionnelles, nous avons implémenté progressivement chaque fonctionnalité en veillant à respecter les contraintes définies (règles métier, types de données, navigation, cohérence des interfaces…). Nous avons également réparti le travail au sein de l'équipe afin de maintenir une cohérence dans le code et d'assurer une intégration continue tout au long des sprints.</p>
@@ -116,7 +128,9 @@
 
         <h2 class="titlePartie">Partie 4 : Tests</h2>
         <div class="row">
-            <img class="image" src="../image/Tests.png">
+            <div class="image-wrapper small">
+              <img class="image" src="../image/Tests.png">
+            </div>
             <div>
                 <p>Au premier semestre, lors du développement initial en Laravel, nous n’avions pas mis en place de tests unitaires pour tester la qualité de l'application.</p>
                 <p>En revanche, au second semestre, nous avons réalisé de nouveaux ce projet à l'identique avec une API Rest et VueJS. Nous avons ainsi pu mettre en œuvre des tests pour vérifier la fiabilité des échanges avec l’API et la cohérence des données renvoyées.</p>

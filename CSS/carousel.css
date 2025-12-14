@@ -13,6 +13,10 @@
   animation-duration: 1s;
 }
 
+.click{
+  cursor: pointer;
+}
+
 @keyframes fade{
   from {opacity: .4}
   to {opacity: 1}
