@@ -91,3 +91,8 @@ ul{
 #req{
     width: 50%;
 }
+
+#schema{
+    width: 40%;
+    text-align: center;
+}
