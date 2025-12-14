@@ -6,9 +6,19 @@ li{
     margin-bottom: 2%; 
 }
 
+.detail{
+    margin-top: 3%;
+    margin-left: 7%;
+}
+
 @media (min-width: 600px) {
     .image{
         width: 27%;
+    }
+
+    .mat{
+        width: 20%;
+        height: 200%;
     }
 
     .apprentissageli{
@@ -30,5 +40,9 @@ li{
     .apprentissage {
         margin-top: 5%;
         margin-bottom: 10%;
+    }
+    .mat{
+        width: 20%;
+        height: 200%;
     }
 }

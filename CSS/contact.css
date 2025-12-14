@@ -40,3 +40,9 @@ button:disabled {
     opacity:0.6; 
     cursor:not-allowed; 
 }
+
+ul {
+    margin-top: 2%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+}
