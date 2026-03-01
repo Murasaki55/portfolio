@@ -62,14 +62,17 @@
         width: 200px;
         height: 200px;
         display: none;
-        position: absolute;
+        margin-left: 15%;
+        margin-bottom: 5%;
+
     }
     #mura {
         right: 25%;
         width: 200px;
         height: 275px;
         display: none;
-        position: absolute;
+        margin-left: 15%;
+        margin-bottom: 5%;
     }
 
     #titlepage{
