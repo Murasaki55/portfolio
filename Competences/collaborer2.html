@@ -13,43 +13,29 @@
     <script src="../dropdown.js" defer></script>
     <script src="globalpotfolio.js" defer></script>
     <header>
-        <div class="row">
-            <h2 id="title">E-portfolio Quentin DACQUIN</h2>
-            <div class="divlienHead">
-                <p class="lienHead" onclick=" window.location.href ='../'">Dev.exe</p>
-                <p class="lienHead" onclick=" window.location.href ='../contact.html'">Me joindre</p>
-                <a class="lienHead" href="../Quentin DACQUIN.pdf" target="_blank">Télécharger ma fiche de perso</a>
-            </div>
-        </div>
-        <div class="row divheader">
-            <button onclick=" window.location.href ='../formation.html'" class="buttheader">Ma formation</button>
-            <div class="dropdown">
-                <button class="bloc-top">
-                    <span>Mes actions professionnelles</span>
-                    <img src="../image/fleche-vers-le-bas.png  ">
-                </button>
-                <div class="bloc-links">
-                    <ul>
-                        <li>
-                            <p onclick=" window.location.href ='../experiencePro.html'">Mes expériences professionnelles</p>
-                        </li>
-                        <li>
-                            <p onclick=" window.location.href ='../stagesPro.html'">Mes stages/alternances professionnels</p>
-                        </li>
-                        <li>
-                            <p onclick=" window.location.href ='../situationEval.html'">Mes situations d'apprentissage et d'évaluation</p>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <button class="buttheader" onclick="window.location.href='../competence.html'">Mes compétences</button>
-            <button class="buttheader" onclick=" window.location.href ='../atouts.html'">Mes atouts</button>
-            <button class="buttheader" onclick=" window.location.href ='../loisirs.html'">Mes loisirs</button>
-        </div>
+        <div id="header"></div>
         <div class="body">
             <h2 class="tree"><a href="../" class="tree">Accueil</a> > Compétence : Travailler dans une équipe informatique (Niveau 2)</h2>
         </div>
     </header>
+    <script>
+        fetch('header.html')
+            .then(res => res.text())
+                .then(html => {
+        document.getElementById('header').innerHTML = html;
+
+        const blocLinks = document.querySelector(".bloc-links");
+        const dropdown = document.querySelector(".dropdown");
+
+        dropdown.addEventListener('mouseover', () => {
+            blocLinks.style.maxHeight = blocLinks.scrollHeight + "px";
+        });
+
+        dropdown.addEventListener('mouseout', () => {
+            blocLinks.style.maxHeight = "0px";
+        });
+    });
+    </script>
     <div class="body">
         <h1>Compétence : Travailler dans une équipe informatique (Niveau 2)</h1>
         <ul>
@@ -83,24 +69,13 @@
     </div>
 
     <footer id="footerstat">
-        <div class="divlienFooter">
-            <p class="lienHead" onclick=" window.location.href ='../'">Dev.exe</p>
-            <p class="lienHead" onclick=" window.location.href ='../contact.html'">Me joindre</p>
-            <a class="lienHead" href="../Quentin DACQUIN.pdf" target="_blank">Télécharger ma fiche de perso</a>
-        </div>
-        <div class="row">
-            <div class="row">
-                <div>
-                    <img class="footimg" src="../image/LinkedIn_icon.svg.png" alt="">  
-                    <a class="footlien" href="https://www.linkedin.com/in/quentin-dacquin-94a315305/">Linkedin</a>
-                </div>
-                <div>
-                    <img class="footimg" src="../image/GitHub_Invertocat_Logo.svg.png" alt="">
-                    <a class="footlien" href="https://github.com/Murasaki55">Github</a>
-                </div>
-            </div>
-        </div>
+        <div id="footer"></div>
     </footer>
+    <script>
+        fetch('footer.html')
+            .then(res => res.text())
+            .then(html => document.getElementById('footer').innerHTML = html);
+    </script>
     
 </body>
 </html>
